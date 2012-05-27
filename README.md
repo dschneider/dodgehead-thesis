@@ -13,4 +13,4 @@ The goal was to build a game that assists students in learning Computer Graphics
 
 ### The Thesis Document
 
-You can find the according thesis document on my [website](http://www.dennis-schneider.com)
+You can find the according thesis document on my [website](http://www.dennis-schneider.com) (the thesis document is in German!)
