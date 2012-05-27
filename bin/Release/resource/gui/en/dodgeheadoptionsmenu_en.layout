@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="TaharezLook/FrameWindow" Name="OptionsMenu/" >
+        <Property Name="Text" Value="OPTIONS MENU" />
+        <Property Name="TitlebarFont" Value="Commonwealth-10" />
+        <Property Name="SizingEnabled" Value="False" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.0226191,0},{0.25303,0},{0.32381,0},{0.81348,0}}" />
+        <Property Name="DragMovingEnabled" Value="False" />
+        <Property Name="CloseButtonEnabled" Value="False" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Window Type="TaharezLook/Combobox" Name="OptionsMenu/ResolutionBox" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.132213,0},{0.262501,0},{0.838522,0},{0.660249,0}}" />
+            <Property Name="MaxEditTextLength" Value="1073741823" />
+        </Window>
+        <Window Type="TaharezLook/StaticText" Name="OptionsMenu/ResolutionText" >
+            <Property Name="Text" Value="RESOLUTION" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.137102,0},{0.161072,0},{0.739044,0},{0.238237,0}}" />
+        </Window>
+        <Window Type="TaharezLook/StaticText" Name="OptionsMenu/FullscreenText" >
+            <Property Name="Text" Value="FULLSCREEN" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.132144,0},{0.405753,0},{0.729234,0},{0.483623,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Checkbox" Name="OptionsMenu/FullscreenCheckBox" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.764148,0},{0.417377,0},{0.832109,0},{0.466582,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="OptionsMenu/Back" >
+            <Property Name="Text" Value="ABORT" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.120117,0},{0.874513,0},{0.860408,0},{0.954678,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="OptionsMenu/Apply" >
+            <Property Name="Text" Value="APPLY" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.12253,0},{0.780361,0},{0.862647,0},{0.86003,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Combobox" Name="OptionsMenu/DifficultyBox" >
+            <Property Name="Font" Value="Commonwealth-10" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.124901,0},{0.633078,0},{0.837351,0},{0.91195,0}}" />
+            <Property Name="MaxEditTextLength" Value="1073741823" />
+        </Window>
+        <Window Type="TaharezLook/StaticText" Name="OptionsMenu/DifficultyText" >
+            <Property Name="Text" Value="DIFFICULTY" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.13004,0},{0.530975,0},{0.725889,0},{0.605819,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

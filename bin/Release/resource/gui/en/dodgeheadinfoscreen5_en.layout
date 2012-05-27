@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="TaharezLook/FrameWindow" Name="InfoScreen5/" >
+        <Property Name="Text" Value="INFO SCREEN LEVEL 5" />
+        <Property Name="TitlebarFont" Value="Commonwealth-10" />
+        <Property Name="SizingEnabled" Value="False" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.0365349,0},{0.0208139,0},{0.979392,0},{0.993589,0}}" />
+        <Property Name="CloseButtonEnabled" Value="False" />
+        <Window Type="TaharezLook/Button" Name="InfoScreen5/Forward1" >
+            <Property Name="Text" Value="FORWARD" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.512587,0},{0.931724,0},{0.668609,0},{0.985486,0}}" />
+        </Window>
+        <Window Type="TaharezLook/StaticText" Name="InfoScreen5/Text1" >
+            <Property Name="Text" >
+BUMP MAPPING
+------------------------------------------------------------------------------------------------------
+Bump mapping is a computer graphics technique where at each pixel, a perturbation to the surface normal
+of the object being rendered is looked up in a texture map and applied before the illumination calculation
+is done (see, for instance, Phong shading). The result is a richer, more detailed surface representation
+that more closely resembles the details inherent in the natural world. Normal and parallax mapping are
+the most commonly used ways of making bumps, using new techniques that makes bumpmapping using a greyscale
+obsolete.
+The difference between displacement mapping and bump mapping is evident in the example images; in bump
+mapping, the normal alone is perturbed, not the geometry itself. This leads to artifacts in the silhouette
+of the object (the sphere still has a circular silhouette).
+Bump mapping is a computer graphics technique to make a rendered surface look more realistic by modeling the
+interaction of a bumpy surface texture with lights in the environment. Bump mapping does this by changing the
+brightness of the pixels on the surface in response to a heightmap that is specified for each surface.
+When rendering a 3D scene, the brightness and colour of the pixels are determined by the interaction of a 3D
+model with lights in the scene. After it is determined that an object is visible, trigonometry is used to
+calculate the 'geometric' surface normal of the object, defined as a vector at each pixel position on the object.
+The geometric surface normal then defines how strongly the object interacts with light coming from a given
+direction using Phong shading or a similar lighting algorithm. Light traveling perpendicular to a surface
+interacts more strongly than light that is more parallel to the surface. After the initial geometry calculations,
+a coloured texture is often applied to the model to make the object appear more realistic.
+After texturing, a calculation is performed for each pixel on the object's surface:
+
+1. Look up the position on the heightmap that corresponds to the position on the surface.
+2. Calculate the surface normal of the heightmap.
+3. Add the surface normal from step 2 to the geometric surface normal so that the normal points in a new direction.
+4. Calculate the interaction of the new 'bumpy' surface with lights in the scene using, for example, Phong shading.
+
+The result is a surface that appears to have real depth. The algorithm also ensures that the surface appearance
+changes as lights in the scene move around. Normal mapping is the most commonly used bump mapping technique, but
+there are other alternatives, such as parallax mapping.
+            </Property>
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0.018584,0},{0.0667662,0},{0.982836,0},{0.920576,0}}" />
+        </Window>
+        <Window Type="TaharezLook/StaticText" Name="InfoScreen5/Text2" >
+            <Property Name="Text" >
+BLOOM EFFECT
+------------------------------------------------------------------------------------------------------
+The physical basis of bloom is that, in the real world, lenses can never focus perfectly. Even a perfect lens will convolve the
+incoming image with an Airy disc (the diffraction pattern produced by passing a point light source through a circular aperture).
+Under normal circumstances, these imperfections aren't noticeable; but, an intensely bright light source will cause the
+imperfections to become visible. As a result, the image of the bright light appears to bleed beyond its natural borders.
+
+The Airy disc function falls off very quickly but has very wide tails (actually, infinitely wide tails). As long as the
+brightness of adjacent parts of the image are roughly in the same range, the effect of the blurring caused by the Airy disc
+is not particularly noticeable; but in parts of the image where very bright parts are adjacent to relatively darker parts,
+the tails of the Airy disc become visible, and can extend far beyond the extent of the bright part of the image.
+
+In HDR images, the effect can be re-produced by convolving the image with a windowed kernel of an Airy disc (for very good lenses),
+or by applying Gaussian blur (to simulate the effect of a less perfect lens), before converting the image to fixed-range pixels.
+The effect can't be fully reproduced in non-HDR imaging systems, because the amount of bleed depends on how bright the bright part
+of the image is.
+
+As an example, if a picture is taken indoors, the brightness of outdoor objects seen through a window may be 70 or 80 times
+brighter than objects inside the room. If exposure levels are set for objects inside the room, windows will be bright enough,
+when convolved with the Airy disc of the camera being used to produce the image, to cause the image of the windows to bleed
+past the frames of the window.
+            </Property>
+            <Property Name="Visible" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0195962,0},{0.0671617,0},{0.98282,0},{0.920972,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="InfoScreen5/Backward1" >
+            <Property Name="Text" Value="BACKWARD" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.347828,0},{0.929472,0},{0.503849,0},{0.984742,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="TaharezLook/FrameWindow" Name="HelpMenu/" >
+        <Property Name="Text" Value="HELP MENU" />
+        <Property Name="TitlebarFont" Value="Commonwealth-10" />
+        <Property Name="SizingEnabled" Value="False" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.345833,0},{0.073377,0},{0.644642,0},{0.627488,0}}" />
+        <Property Name="CloseButtonEnabled" Value="False" />
+        <Window Type="TaharezLook/ScrollablePane" Name="HelpMenu/ScrollText" >
+            <Property Name="ContentArea" Value="l:205 t:192 r:602 b:980" />
+            <Property Name="HorzStepSize" Value="0.1" />
+            <Property Name="VertStepSize" Value="0.1" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HorzOverlapSize" Value="0.01" />
+            <Property Name="UnifiedAreaRect" Value="{{0.109524,0},{0.11954,0},{0.923809,0},{0.829364,0}}" />
+            <Property Name="VertOverlapSize" Value="0.01" />
+            <Property Name="HorzScrollPosition" Value="0" />
+            <Property Name="VertScrollPosition" Value="0" />
+            <AutoWindow NameSuffix="__auto_container__" >
+                <Property Name="ContentArea" Value="l:205 t:192 r:602 b:980" />
+                <Property Name="ChildExtentsArea" Value="l:205 t:192 r:602 b:980" />
+                <Window Type="TaharezLook/StaticText" Name="HelpMenu/ScrollText/Text" >
+                    <Property Name="Text" >GAME RULES
+----------------
+THE GOAL OF THE GAME IS 
+TO DODGE THE BLOCKS AND
+OTHER ENEMY OBJECTS. IF
+YOU HIT A BLOCK YOU WILL
+DRIVE ON BUT LOSE ENERGY.
+WHEN YOUR ENERGY IS ZERO
+YOU LOSE A LIFE. WHEN
+YOUR LIFES ARE ZERO
+THE GAME IS OVER.
+
+THERE ARE SEVERAL OBJECTS
+IN THE LEVELS YOU CAN PICK
+UP. THE BRIGHT ONES HAVE
+NO EFFECT ON THE GAME BUT
+GIVE LOW POINTS. THE DARK
+ONES GIVE MANY POINTS BUT
+THERE MAY BE A SURPRISE YOU
+WON'T LIKE...
+
+CONTROLS
+----------------
+MOVE THE PLAYER
+-> ARROW KEYS ON KEYBOARD
+
+SHOW / HIDE INFORMATION
+-> F1
+
+WIREFRAME / POLYGON MODE
+-> F2 / F3
+
+PAUSE / IN GAME MENU
+-> P / ESC
+
+                    </Property>
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.527797,0},{1.47121,0},{2.70023,0}}" />
+                </Window>
+            </AutoWindow>
+        </Window>
+        <Window Type="TaharezLook/Button" Name="HelpMenu/Back" >
+            <Property Name="Text" Value="CONTINUE" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.15277,0},{0.871094,0},{0.864675,0},{0.96875,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

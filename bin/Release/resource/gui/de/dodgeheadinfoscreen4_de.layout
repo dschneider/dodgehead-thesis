@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="TaharezLook/FrameWindow" Name="InfoScreen4/" >
+        <Property Name="Text" Value="INFO SCREEN LEVEL 4" />
+        <Property Name="TitlebarFont" Value="Commonwealth-10" />
+        <Property Name="SizingEnabled" Value="False" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.0365349,0},{0.0208139,0},{0.979392,0},{0.993589,0}}" />
+        <Property Name="CloseButtonEnabled" Value="False" />
+        <Window Type="TaharezLook/Button" Name="InfoScreen4/Forward1" >
+            <Property Name="Text" Value="WEITER" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.512587,0},{0.931724,0},{0.668609,0},{0.985486,0}}" />
+        </Window>
+        <Window Type="TaharezLook/StaticText" Name="InfoScreen4/Text1" >
+            <Property Name="Text" >
+SHADING
+------------------------------------------------------------------------------------------------------
+In computer graphics, Shading refers to the process of altering a color based on its angle to lights and
+its distance from lights to create a photorealistic effect. Shading is performed during the rendering process.
+Shading alters the colors of faces in a 3D model based on the angle of the surface to the sun or other light sources.
+The very first image below has the faces of the box rendered, but all in the same color. Edge lines have been rendered here
+as well which makes the image easier to see. The second image is the same model rendered without edge lines. It is 
+difficult to tell where one face of the box ends and the next begins. The third image has shading enabled, which makes the 
+image more realistic and makes it easier to see which face is which.
+
+SHADING ALGORITHMS
+------------------------------------------------------------------------------------------------------
+Flat shading is a lighting technique used in 3D computer graphics. It shades each polygon of an object based on the angle
+between the polygon's surface normal and the direction of the light source, their respective colors and the intensity of
+the light source. It was used for high speed rendering where more advanced shading techniques were too computationally
+expensive. But by the end of the 20th century affordable graphics cards were offering smooth shading that were also very
+fast, making flat shading for speed reasons unnecessary.
+The disadvantage of flat shading is that it gives low-polygon models a faceted look. Sometimes this look can be advantage-
+ous though, such as in modeling boxy objects; flat shading is only inappropriate when the object must appear with smoother
+curves than actually modeled. Artists sometimes use flat shading to look at the polygons of a solid model they are creating.
+More advanced and realistic lighting and shading techniques include Gouraud shading and Phong shading.
+            </Property>
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0.018584,0},{0.0667662,0},{0.982836,0},{0.920576,0}}" />
+        </Window>
+        <Window Type="TaharezLook/StaticText" Name="InfoScreen4/Text2" >
+            <Property Name="Text" >
+LIGHT SOURCES
+------------------------------------------------------------------------------------------------------
+There are many types of lights:
+
+* Ambient Light - An ambient light lights all objects within a scene equally, brightening them without adding shading.
+* Directional Light - A directional light illuminates all objects equally from a given direction. It's like an area light of
+infinite size and infinite distance from the scene. There is shading, but cannot be any distance falloff.
+* Point Light - A point light originates from a single point, and spreads outward in all directions.
+* Spotlight - A spotlight originates from a single point, and spreads outward in a coned direction.
+* Area Light - An area light originates from a single plane and illuminates all objects in a given direction beginning from that
+plane.
+* Volume Light - A volume light is an enclosed space lighting objects within that space.
+
+Shading is interpolated based on how the angle of these light sources reach the objects within a scene. Of course, these
+light sources can be and often are combined in a scene. The renderer then interpolates how these lights must be combined,
+and produces a 2d image to be displayed on the screen accordingly.
+            </Property>
+            <Property Name="Visible" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0195962,0},{0.0671617,0},{0.98282,0},{0.920972,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="InfoScreen4/Backward1" >
+            <Property Name="Text" Value="ZURÜCK" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.347828,0},{0.929472,0},{0.503849,0},{0.984742,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

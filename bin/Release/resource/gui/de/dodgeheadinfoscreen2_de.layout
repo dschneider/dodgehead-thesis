@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="TaharezLook/FrameWindow" Name="InfoScreen2/" >
+        <Property Name="Text" Value="INFO SCREEN LEVEL 2" />
+        <Property Name="TitlebarFont" Value="Commonwealth-10" />
+        <Property Name="SizingEnabled" Value="False" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.0365349,0},{0.0208139,0},{0.979392,0},{0.993589,0}}" />
+        <Property Name="CloseButtonEnabled" Value="False" />
+        <Window Type="TaharezLook/Button" Name="InfoScreen2/Forward1" >
+            <Property Name="Text" Value="WEITER" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.512587,0},{0.931724,0},{0.668609,0},{0.985486,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="InfoScreen2/Forward2" >
+          <Property Name="Text" Value="WEITER" />
+          <Property Name="Visible" Value="False" />
+          <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+          <Property Name="UnifiedAreaRect" Value="{{0.512587,0},{0.931724,0},{0.668609,0},{0.985486,0}}" />
+        </Window>
+        <Window Type="TaharezLook/StaticText" Name="InfoScreen2/Text1" >
+            <Property Name="Text" >
+CLIPPING
+------------------------------------------------------------------------------------------------------
+In rendering, clipping refers to an optimization where the computer only draws things that might be
+visible to the viewer.
+In 2D graphics for example, if the user of an image editing program is modifying an image of the Mona
+Lisa and has "zoomed in" the view to display only the top half of the painting, there is no need for
+the program to spend any CPU time doing any of the calculations or memory moves needed to display the
+bottom half. By clipping the bottom half of the painting and avoiding these calculations, the program
+runs faster.
+In 3D graphics, in a city street scene the computer may have model, texture, and shader data in memory
+for every building in the city; but since the camera viewing the scene only sees things within, say, a
+90° angle, or field of view, the computer does not need to transform, texture, and shade the buildings
+that are behind the camera, nor those which are far enough to the side that they are off the screen. The
+clipping algorithm lets the rendering code skip all consideration of those buildings, and the program
+runs faster.
+
+IMPORTANCE OF CLIPPING IN VIDEO GAMES
+------------------------------------------------------------------------------------------------------
+Good clipping strategy is important in the development of video games in order to maximize the game's frame 
+rate and visual quality. Despite GPU chips that are faster every year, it remains computationally expensive 
+to transform, texture, and shade polygons, especially with the multiple texture and shading passes common today. 
+Hence, game developers must live within a certain "budget" of polygons that can be drawn each video frame.
+
+To maximize the game's visual quality, developers prefer to establish the highest possible polygon budget; 
+therefore, every optimization of the graphics pipeline benefits the polygon budget and therefore the game.
+
+In video games, then, clipping is a critically important optimization that speeds up the rendering of the 
+current scene, and therefore allows the developer to increase the renderer's polygon budget. Programmers often 
+devise clever heuristics to speed up the clipper, as it would be computationally prohibitive to use line casting 
+or ray tracing to determine with 100% accuracy which polygons are and are not within the camera's field of view. 
+One of the most popular methods for optimization is the use of octrees to partition scenes into rendered and 
+non-rendered areas.
+            </Property>
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0.018584,0},{0.0667662,0},{0.982836,0},{0.920576,0}}" />
+        </Window>
+        <Window Type="TaharezLook/StaticText" Name="InfoScreen2/Text2" >
+            <Property Name="Text" >
+CLIPPING ALGORITHMS
+------------------------------------------------------------------------------------------------------
+Several clipping algorithms have been devised. Here are shown two examples for two different types
+of algorithms:
+
+LINE CLIPPING ALGORITHMS - COHEN-SUTHERLAND
+------------------------------------------------------------------------------------------------------
+In computer graphics, the Cohen-Sutherland algorithm is a line clipping algorithm. The algorithm divides
+a 2D space into 9 parts, of which only the middle part (viewport) is visible.
+
+The algorithm includes, excludes or partially includes the line based on where:
+
+* Both endpoints are in the viewport (bitwise OR of endpoints == 0): trivial accept.
+* Both endpoints are on the same side of the rectangle, which is not visible (bitwise AND of endpoints != 
+  0): trivial reject.
+* Both endpoints are in different parts: In case of this non trivial situation the algorithm finds one of 
+the two points that are outside the viewport (there is at least one point outside). The intersection of 
+the outpoint and extended viewport border is then calculated (i.e. with the parametric equation for the line) 
+and this new point replaces the outpoint. The algorithm repeats until a trivial accept or reject occurs.
+
+The numbers in the figure below are called outcodes. An outcode is computed for each of the two points in the 
+line. The first bit is set to 1 if the point is above the viewport. The bits in the outcode represent: Top, 
+Bottom, Right, Left. For example the outcode 1010 represents a point that is top-right of the viewport. 
+Note that the outcodes for endpoints must be recalculated on each iteration after the clipping occurs.
+1001 	1000 	1010
+0001 	0000 	0010
+0101 	0100 	0110
+
+POLYGON CLIPPING ALGORITHMS - SUTHERLAND-HODGMAN
+------------------------------------------------------------------------------------------------------
+The Sutherland-Hodgman algorithm is used for clipping polygons. It works by extending each line of the clip
+polygon in turn and selecting only vertices from the subject polygon that are on the visible side.
+
+The algorithm begins with an input list of all vertices in the subject polygon. Next, one side of the clip 
+polygon is extended infinitely in both directions, and the path of the subject polygon is traversed. Vertices 
+from the input list are inserted into an output list if they lie on the visible side of the extended clip polygon 
+line, and new vertices are added to the output list where the subject polygon path crosses the extended clip polygon line.
+
+This process is repeated iteratively for each clip polygon side, using the output list from one stage as the input 
+list for the next. Once all sides of the clip polygon have been processed, the final generated list of vertices defines 
+a new single polygon that is entirely visible. Note that if the subject polygon was concave at vertices outside the clipping 
+polygon, the new polygon may have coincident (i.e. overlapping) edges - this is acceptable for rendering, but not for other 
+applications such as computing shadows.
+            </Property>
+            <Property Name="Visible" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0195962,0},{0.0671617,0},{0.98282,0},{0.920972,0}}" />
+        </Window>
+      <Window Type="TaharezLook/StaticText" Name="InfoScreen2/Text3" >
+        <Property Name="Text" >
+POLYGON CLIPPING ALGORITHMS - SUTHERLAND-HODGMAN
+------------------------------------------------------------------------------------------------------
+The algorithm begins with an input list of all vertices in the subject polygon. Next, one side of the clip
+polygon is extended infinitely in both directions, and the path of the subject polygon is traversed. Vertices
+from the input list are inserted into an output list if they lie on the visible side of the extended clip polygon
+line, and new vertices are added to the output list where the subject polygon path crosses the extended clip polygon line.
+
+This process is repeated iteratively for each clip polygon side, using the output list from one stage as the input
+list for the next. Once all sides of the clip polygon have been processed, the final generated list of vertices defines
+a new single polygon that is entirely visible. Note that if the subject polygon was concave at vertices outside the clipping
+polygon, the new polygon may have coincident (i.e. overlapping) edges - this is acceptable for rendering, but not for other
+applications such as computing shadows.
+
+The Weiler-Atherton algorithm overcomes this by returning a set of divided polygons, but is more complex and computationally
+more expensive, so Sutherland-Hodgman is used for many rendering applications. Sutherland-Hodgman can also be extended into 3D
+space by clipping the polygon paths based on the boundaries of planes defined by the viewing space.
+
+SCAN CONVERSION
+------------------------------------------------------------------------------------------------------
+The final step in the traditional rasterization process is to fill in the 2D triangles that are now in the image plane. This is 
+also known as scan conversion.
+
+The first problem to consider is whether or not to draw a pixel at all. For a pixel to be rendered, it must be within a triangle, 
+and it must not be occluded, or blocked by another pixel. There are a number of algorithms to fill in pixels inside a triangle, 
+the most popular of which is the scanline algorithm. Since it is difficult to know that the rasterization engine will draw all 
+pixels from front to back, there must be some way of ensuring that pixels close to the viewer are not overwritten by pixels far 
+away. A z buffer is the most common solution. The z buffer is a 2d array corresponding to the image plane which stores a depth 
+value for each pixel. Whenever a pixel is drawn, it updates the z buffer with its depth value. Any new pixel must check its depth 
+value against the z buffer value before it is drawn. Closer pixels are drawn and farther pixels are disregarded.
+
+To find out a pixel's color, textures and shading calculations must be applied. A texture map is a bitmap that is applied to a 
+triangle to define its look. Each triangle vertex is also associated with a texture and a texture coordinate (u,v) for normal 2-d 
+textures in addition to its position coordinate. Every time a pixel on a triangle is rendered, the corresponding texel (or texture 
+element) in the texture must be found. This is done by interpolating between the triangle’s vertices’ associated texture coordinates 
+by the pixels on-screen distance from the vertices. In perspective projections, interpolation is performed on the texture coordinates 
+divided by the depth of the vertex to avoid a problem known as perspective foreshortening (a process known as perspective 
+texturing).
+
+Before the final color of the pixel can be decided, a lighting calculation must be performed to shade the pixels based on any lights 
+which may be present in the scene. There are generally three light types commonly used in scenes. Directional lights are lights which 
+come from a single direction and have the same intensity throughout the entire scene. In real life, sunlight comes close to being a 
+directional light, as the sun is so far away that rays from the sun appear parallel to Earth observers and the falloff is negligible. 
+Point lights are lights with a definite position in space and radiate light evenly in all directions. Point lights are usually subject 
+to some form of attenuation, or fall off in the intensity of light incident on objects farther away. Real life light sources experience 
+quadratic falloff. Finally, spotlights are like real-life spotlights, with a definite point in space, a direction, and an angle 
+defining the cone of the spotlight. There is also often an ambient light value that is added to all final lighting calculations to 
+arbitrarily compensate for global illumination effects which rasterization can not calculate correctly.
+
+There are a number of shading algorithms for rasterizers. All shading algorithms need to account for distance from light and the normal vector of the shaded 
+object with respect to the incident direction of light. The fastest algorithms simply shade all pixels on any given triangle with a single lighting value, 
+also known as flat shading. There is no way to create the illusion of smooth surfaces this way, except by subdividing into many small triangles. Algorithms 
+can also separately shade vertices, and interpolate the lighting value of the vertices when drawing pixels. This is known as Gouraud shading. The slowest 
+and most realistic approach is to calculate lighting separately for each pixel, also known as Phong shading. This performs bilinear interpolation of the normal 
+vectors and uses the result to do local lighting calculation.
+        </Property>
+        <Property Name="Visible" Value="False" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="VertFormatting" Value="TopAligned" />
+        <Property Name="UnifiedAreaRect" Value="{{0.0195962,0},{0.0671617,0},{0.98282,0},{0.920972,0}}" />
+      </Window>
+        <Window Type="TaharezLook/Button" Name="InfoScreen2/Backward1" >
+            <Property Name="Text" Value="ZURÜCK" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.347828,0},{0.929472,0},{0.503849,0},{0.984742,0}}" />
+        </Window>
+      <Window Type="TaharezLook/Button" Name="InfoScreen2/Backward2" >
+        <Property Name="Text" Value="ZURÜCK" />
+        <Property Name="Visible" Value="False" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0.347828,0},{0.929472,0},{0.503849,0},{0.984742,0}}" />
+      </Window>
+    </Window>
+</GUILayout>

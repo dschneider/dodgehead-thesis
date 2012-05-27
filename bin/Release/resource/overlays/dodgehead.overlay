@@ -1,0 +1,453 @@
+// An Overlay to display "Game Paused" when the player pauses the game
+Pause
+{
+// set a high z-order, displays on top of anything with lower z-order
+zorder 500
+// create a PanelOverlayElement container to hold the text area
+  container Panel(Pause)
+  {
+    // use relative metrics mode to position and size this container
+    metrics_mode relative
+    
+    // place the container at the top-left corner of the window
+    left 0.0
+    top 0.0
+    
+    // make the container the same size as the window
+    width 1.0
+    height 1.0
+  
+    // create a TextAreaOverlayElement to display the text
+    element TextArea(pauseText)
+    {
+      // position and size the element relative to its container
+      metrics_mode relative
+      
+      // center it vertically in the container
+      vert_align center
+      
+      // put the left corner 4/10 from the left of the container and
+      // make it 2/10 the width of the container and 1/10 the height
+      left 0.4
+      width 0.2
+      height 0.1
+      
+      // set the font used for caption and set the size and color
+      font_name BlueBold
+      char_height 0.03
+      colour 0 0 0
+      caption Game Paused
+    }
+  }
+}
+
+// An Overlay to display "Game Paused" when the player pauses the game
+Time
+{
+// set a high z-order, displays on top of anything with lower z-order
+zorder 500
+// create a PanelOverlayElement container to hold the text area
+  container Panel(Time)
+  {
+    // use relative metrics mode to position and size this container
+    metrics_mode relative
+    
+    // place the container at the top-left corner of the window
+    left -0.01
+    top 0.05
+    
+    // make the container the same size as the window
+    width 1.0
+    height 1.0
+  
+    // create a TextAreaOverlayElement to display the text
+    element TextArea(TimeText)
+    {
+      // position and size the element relative to its container
+      metrics_mode relative
+      
+      // center it vertically in the container
+      vert_align top
+      
+      // put the left corner 4/10 from the left of the container and
+      // make it 2/10 the width of the container and 1/10 the height
+      left 0.4
+      width 0.2
+      height 0.1
+      
+      // set the font used for caption and set the size and color
+      font_name BlueBold
+      char_height 0.05
+      colour 1 0 0
+      caption 20
+    }
+  }
+}
+
+// An Overlay to display "Game Paused" when the player pauses the game
+GameOver
+{
+// set a high z-order, displays on top of anything with lower z-order
+zorder 500
+// create a PanelOverlayElement container to hold the text area
+  container Panel(Game)
+  {
+    // use relative metrics mode to position and size this container
+    metrics_mode relative
+    
+    // place the container at the top-left corner of the window
+    left 0.0
+    top 0.0
+    
+    // make the container the same size as the window
+    width 1.0
+    height 1.0
+  
+    // create a TextAreaOverlayElement to display the text
+    element TextArea(gameOverText)
+    {
+      // position and size the element relative to its container
+      metrics_mode relative
+      
+      // center it vertically in the container
+      vert_align center
+      
+      // put the left corner 4/10 from the left of the container and
+      // make it 2/10 the width of the container and 1/10 the height
+      left 0.4
+      width 0.2
+      height 0.1
+      
+      // set the font used for caption and set the size and color
+      font_name BlueBold
+      char_height 0.05
+      colour 1 0 0
+      caption Game Over
+    }
+  }
+}
+
+// An Overlay to display "Game Paused" when the player pauses the game
+LevelUp
+{
+// set a high z-order, displays on top of anything with lower z-order
+zorder 500
+// create a PanelOverlayElement container to hold the text area
+  container Panel(LevelUp)
+  {
+    // use relative metrics mode to position and size this container
+    metrics_mode relative
+    
+    // place the container at the top-left corner of the window
+    left 0.0
+    top 0.0
+    
+    // make the container the same size as the window
+    width 1.0
+    height 1.0
+  
+    // create a TextAreaOverlayElement to display the text
+    element TextArea(LevelUpText)
+    {
+      // position and size the element relative to its container
+      metrics_mode relative
+      
+      // center it vertically in the container
+      vert_align center
+      
+      // put the left corner 4/10 from the left of the container and
+      // make it 2/10 the width of the container and 1/10 the height
+      left 0.4
+      width 0.2
+      height 0.1
+      
+      // set the font used for caption and set the size and color
+      font_name BlueBold
+      char_height 0.03
+      colour 0 0 0
+      caption LevelUp
+    }
+  }
+}
+
+// An Overlay to display the score
+Score
+{
+// set a high z-order, displays on top of anything with lower z-order
+zorder 500
+// create a PanelOverlayElement container to hold the text areas
+  container Panel(ScorePanel)
+  {
+    // use relative metrics mode to position this container at the
+    // top-left corner of the screen
+    metrics_mode relative
+    left 0.0
+    top 0.0
+    // make it 1/10 the height and the full width of the screen
+    width 1.0
+    height .1
+    // create a TextAreaOverlayElement to display player 1's score
+    element TextArea(left)
+    {
+      // position and size the element relative to the container
+      metrics_mode relative
+      // position it at the top of the container 5% from the left and
+      // make it the same height and half as long as the container
+      left 0.02
+      top 0.0
+      width 0.5
+      height 1.0
+      // set font use for caption and set the size and color
+      font_name BlueBold
+      char_height .03
+      colour 1.0 0 0
+      caption Player 1 Score: 0
+      }
+  }
+}
+
+// An Overlay to display the score
+Energy
+{
+// set a high z-order, displays on top of anything with lower z-order
+zorder 500
+// create a PanelOverlayElement container to hold the text areas
+  container Panel(EnergyPanel)
+  {
+    // use relative metrics mode to position this container at the
+    // top-left corner of the screen
+    metrics_mode relative
+    left 0.0
+    top 0.0
+    // make it 1/10 the height and the full width of the screen
+    width 1.0
+    height .1
+    // create a TextAreaOverlayElement to display player 1's score
+    element TextArea(EnergyLeft)
+    {
+      // position and size the element relative to the container
+      metrics_mode relative
+      // position it at the top of the container 5% from the left and
+      // make it the same height and half as long as the container
+      left 0.02
+      top 0.03
+      width 0.5
+      height 1.0
+      // set font use for caption and set the size and color
+      font_name BlueBold
+      char_height .03
+      colour 1.0 0 0
+      caption Player 1 Energy: 100
+      }
+  }
+}
+
+Lifes
+{
+// set a high z-order, displays on top of anything with lower z-order
+zorder 500
+// create a PanelOverlayElement container to hold the text areas
+  container Panel(LifesPanel)
+  {
+    // use relative metrics mode to position this container at the
+    // top-left corner of the screen
+    metrics_mode relative
+    left 0.0
+    top 0.0
+    // make it 1/10 the height and the full width of the screen
+    width 1.0
+    height .1
+    // create a TextAreaOverlayElement to display player 1's score
+    element TextArea(LifesLeft)
+    {
+      // position and size the element relative to the container
+      metrics_mode relative
+      // position it at the top of the container 5% from the left and
+      // make it the same height and half as long as the container
+      left 0.02
+      top 0.06
+      width 0.5
+      height 1.0
+      // set font use for caption and set the size and color
+      font_name BlueBold
+      char_height .03
+      colour 1.0 0 0
+      caption Player 1 Lifes: 2
+      }
+  }
+}
+
+Vector
+{
+// set a high z-order, displays on top of anything with lower z-order
+zorder 500
+// create a PanelOverlayElement container to hold the text areas
+  container Panel(VectorPanel)
+  {
+    // use relative metrics mode to position this container at the
+    // top-left corner of the screen
+    metrics_mode relative
+    left 0.0
+    top 0.0
+    // make it 1/10 the height and the full width of the screen
+    width 1.0
+    height .1
+    // create a TextAreaOverlayElement to display player 1's score
+    element TextArea(VectorLeft)
+    {
+      // position and size the element relative to the container
+      metrics_mode relative
+      // position it at the top of the container 5% from the left and
+      // make it the same height and half as long as the container
+      left 0.02
+      top 0.09
+      width 0.5
+      height 1.0
+      // set font use for caption and set the size and color
+      font_name BlueBold
+      char_height .03
+      colour 1.0 0 0
+      caption Pos. Vector: 
+      }
+  }
+}
+
+Levelname
+{
+// set a high z-order, displays on top of anything with lower z-order
+zorder 500
+// create a PanelOverlayElement container to hold the text areas
+  container Panel(LevelnamePanel)
+  {
+    // use relative metrics mode to position this container at the
+    // top-left corner of the screen
+    metrics_mode relative
+    left 0.3
+    top 0.7
+    // make it 1/10 the height and the full width of the screen
+    width 1.0
+    height .1
+    // create a TextAreaOverlayElement to display player 1's score
+    element TextArea(LevelnameText)
+    {
+      // position and size the element relative to the container
+      metrics_mode relative
+      // position it at the top of the container 5% from the left and
+      // make it the same height and half as long as the container
+      left 0.0
+      top 0.0
+      width 0.5
+      height 1.0
+      // set font use for caption and set the size and color
+      font_name BlueBold
+      char_height .05
+      colour 0.0 1 0
+      caption Level 1
+      }
+  }
+}
+
+Hurt
+{
+// set a high z-order, displays on top of anything with lower z-order
+zorder 600
+// create a PanelOverlayElement container to hold the text areas
+  container Panel(HurtPanel)
+  {
+    // use relative metrics mode to position this container at the
+    // top-left corner of the screen
+    metrics_mode relative
+    left 0.0
+    top 0.0
+    // make it 1/10 the height and the full width of the screen
+    width 1.0
+    height 1.0
+    material DodgeHead/Hurt
+    // create a TextAreaOverlayElement to display player 1's score
+    element TextArea(HurtArea)
+    {
+      // position and size the element relative to the container
+      metrics_mode relative
+      // position it at the top of the container 5% from the left and
+      // make it the same height and half as long as the container
+      left 0.0
+      top 0.0
+      width 1.0
+      height 1.0
+      // set font use for caption and set the size and color
+      font_name BlueBold
+      char_height .05
+      colour 0.0 1 0
+      }
+  }
+}
+
+Logo
+{
+// set a high z-order, displays on top of anything with lower z-order
+zorder 600
+// create a PanelOverlayElement container to hold the text areas
+  container Panel(LogoPanel)
+  {
+    // use relative metrics mode to position this container at the
+    // top-left corner of the screen
+    metrics_mode relative
+    left 0.42
+    top 0.05
+    // make it 1/10 the height and the full width of the screen
+    width 0.2
+    height 0.2
+    material DodgeHead/Logo
+    // create a TextAreaOverlayElement to display player 1's score
+    element TextArea(LogoArea)
+    {
+      // position and size the element relative to the container
+      metrics_mode relative
+      // position it at the top of the container 5% from the left and
+      // make it the same height and half as long as the container
+      left 0.0
+      top 0.0
+      width 1.0
+      height 1.0
+      // set font use for caption and set the size and color
+      font_name BlueBold
+      char_height .05
+      colour 0.0 1 0
+      }
+  }
+}
+
+Infobox
+{
+// set a high z-order, displays on top of anything with lower z-order
+zorder 501
+// create a PanelOverlayElement container to hold the text areas
+  container Panel(InfoboxPanel)
+  {
+    // use relative metrics mode to position this container at the
+    // top-left corner of the screen
+    metrics_mode relative
+    left 0.0
+    top 0.2
+    // make it 1/10 the height and the full width of the screen
+    width 1.0
+    height .1
+    // create a TextAreaOverlayElement to display player 1's score
+    element TextArea(InfoboxText)
+    {
+      // position and size the element relative to the container
+      metrics_mode relative
+      // position it at the top of the container 5% from the left and
+      // make it the same height and half as long as the container
+      left 0.02
+      top 0.0
+      width 0.5
+      height 1.0
+      // set font use for caption and set the size and color
+      font_name BlueBold
+      char_height .025
+      colour 1.0 0 0
+      caption Infobox:
+    }
+  }
+}

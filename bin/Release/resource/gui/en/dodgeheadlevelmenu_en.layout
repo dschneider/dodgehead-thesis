@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="TaharezLook/FrameWindow" Name="LevelMenu/" >
+        <Property Name="Text" Value="CHOOSE A LEVEL" />
+        <Property Name="TitlebarFont" Value="Commonwealth-10" />
+        <Property Name="SizingEnabled" Value="False" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.0232137,0},{0.019263,0},{0.326786,0},{0.554978,0}}" />
+        <Property Name="DragMovingEnabled" Value="False" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Property Name="CloseButtonEnabled" Value="False" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Window Type="TaharezLook/Button" Name="LevelMenu/Level1" >
+            <Property Name="Text" Value="LEVEL 1" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.148374,0},{0.137374,0},{0.86692,0},{0.239899,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="LevelMenu/Level2" >
+            <Property Name="Text" Value="LEVEL 2" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.15076,0},{0.273737,0},{0.864968,0},{0.376262,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="LevelMenu/Level3" >
+            <Property Name="Text" Value="LEVEL 3" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.147939,0},{0.410101,0},{0.862147,0},{0.508586,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="LevelMenu/Level4" >
+            <Property Name="Text" Value="LEVEL 4" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.152495,0},{0.538384,0},{0.862363,0},{0.640909,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="LevelMenu/Level5" >
+            <Property Name="Text" Value="LEVEL 5" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.154881,0},{0.672728,0},{0.86258,0},{0.773233,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="LevelMenu/Back" >
+            <Property Name="Text" Value="BACK" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.152929,0},{0.869697,0},{0.860629,0},{0.968181,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

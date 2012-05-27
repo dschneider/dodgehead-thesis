@@ -1,0 +1,1376 @@
+06/01/2010 20:28:01 (InfL1)	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+06/01/2010 20:28:01 (InfL1)	+                     Crazy Eddie's GUI System - Event log                    +
+06/01/2010 20:28:01 (InfL1)	+                          (http://www.cegui.org.uk/)                         +
+06/01/2010 20:28:01 (InfL1)	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+06/01/2010 20:28:01 (InfL1)	CEGUI::Logger singleton created.
+06/01/2010 20:28:01 (InfL1)	---- Begining CEGUI System initialisation ----
+06/01/2010 20:28:01 (InfL1)	CEGUI::ImagesetManager singleton created
+06/01/2010 20:28:01 (InfL1)	CEGUI::FontManager singleton created.
+06/01/2010 20:28:01 (InfL1)	CEGUI::WindowFactoryManager singleton created
+06/01/2010 20:28:01 (InfL1)	CEGUI::WindowManager singleton created
+06/01/2010 20:28:01 (InfL1)	CEGUI::SchemeManager singleton created.
+06/01/2010 20:28:01 (InfL1)	CEGUI::MouseCursor singleton created.
+06/01/2010 20:28:01 (InfL1)	CEGUI::GlobalEventSet singleton created.
+06/01/2010 20:28:01 (InfL1)	CEGUI::WidgetLookManager singleton created.
+06/01/2010 20:28:01 (InfL1)	CEGUI::WindowRendererManager singleton created
+06/01/2010 20:28:01 (InfL1)	WindowFactory for 'DefaultWindow' windows added.
+06/01/2010 20:28:01 (InfL1)	WindowFactory for 'DragContainer' windows added.
+06/01/2010 20:28:01 (InfL1)	WindowFactory for 'ScrolledContainer' windows added.
+06/01/2010 20:28:01 (InfL1)	WindowFactory for 'ClippedContainer' windows added.
+06/01/2010 20:28:01 (InfL1)	WindowFactory for 'CEGUI/Checkbox' windows added.
+06/01/2010 20:28:01 (InfL1)	WindowFactory for 'CEGUI/PushButton' windows added.
+06/01/2010 20:28:01 (InfL1)	WindowFactory for 'CEGUI/RadioButton' windows added.
+06/01/2010 20:28:01 (InfL1)	WindowFactory for 'CEGUI/Combobox' windows added.
+06/01/2010 20:28:01 (InfL1)	WindowFactory for 'CEGUI/ComboDropList' windows added.
+06/01/2010 20:28:01 (InfL1)	WindowFactory for 'CEGUI/Editbox' windows added.
+06/01/2010 20:28:01 (InfL1)	WindowFactory for 'CEGUI/FrameWindow' windows added.
+06/01/2010 20:28:01 (InfL1)	WindowFactory for 'CEGUI/ItemEntry' windows added.
+06/01/2010 20:28:01 (InfL1)	WindowFactory for 'CEGUI/Listbox' windows added.
+06/01/2010 20:28:01 (InfL1)	WindowFactory for 'CEGUI/ListHeader' windows added.
+06/01/2010 20:28:01 (InfL1)	WindowFactory for 'CEGUI/ListHeaderSegment' windows added.
+06/01/2010 20:28:01 (InfL1)	WindowFactory for 'CEGUI/Menubar' windows added.
+06/01/2010 20:28:01 (InfL1)	WindowFactory for 'CEGUI/PopupMenu' windows added.
+06/01/2010 20:28:01 (InfL1)	WindowFactory for 'CEGUI/MenuItem' windows added.
+06/01/2010 20:28:01 (InfL1)	WindowFactory for 'CEGUI/MultiColumnList' windows added.
+06/01/2010 20:28:01 (InfL1)	WindowFactory for 'CEGUI/MultiLineEditbox' windows added.
+06/01/2010 20:28:01 (InfL1)	WindowFactory for 'CEGUI/ProgressBar' windows added.
+06/01/2010 20:28:01 (InfL1)	WindowFactory for 'CEGUI/ScrollablePane' windows added.
+06/01/2010 20:28:01 (InfL1)	WindowFactory for 'CEGUI/Scrollbar' windows added.
+06/01/2010 20:28:01 (InfL1)	WindowFactory for 'CEGUI/Slider' windows added.
+06/01/2010 20:28:01 (InfL1)	WindowFactory for 'CEGUI/Spinner' windows added.
+06/01/2010 20:28:01 (InfL1)	WindowFactory for 'CEGUI/TabButton' windows added.
+06/01/2010 20:28:01 (InfL1)	WindowFactory for 'CEGUI/TabControl' windows added.
+06/01/2010 20:28:01 (InfL1)	WindowFactory for 'CEGUI/Thumb' windows added.
+06/01/2010 20:28:01 (InfL1)	WindowFactory for 'CEGUI/Titlebar' windows added.
+06/01/2010 20:28:01 (InfL1)	WindowFactory for 'CEGUI/Tooltip' windows added.
+06/01/2010 20:28:01 (InfL1)	WindowFactory for 'CEGUI/ItemListbox' windows added.
+06/01/2010 20:28:01 (InfL1)	Window type alias named 'DefaultGUISheet' added for window type 'DefaultWindow'.
+06/01/2010 20:28:01 (InfL1)	CEGUI::System singleton created.
+06/01/2010 20:28:01 (InfL1)	---- CEGUI System initialisation completed ----
+06/01/2010 20:28:01 (InfL1)	---- Version 0.5.1 ----
+06/01/2010 20:28:01 (InfL1)	---- Renderer module is: CEGUI::OgreRenderer - Official Ogre based renderer module for CEGUI ----
+06/01/2010 20:28:01 (InfL1)	---- XML Parser module is: CEGUI::ExpatParser - Official expat based parser module for CEGUI ----
+06/01/2010 20:28:01 (InfL1)	---- Scripting module is: None ----
+06/01/2010 20:28:01 (InfL1)	Attempting to load Scheme from file 'TaharezLookSkin.scheme'.
+06/01/2010 20:28:01 (InfL2)	Started creation of Scheme 'TaharezLook' via XML file.
+06/01/2010 20:28:01 (InfL2)	Finished creation of Scheme 'TaharezLook' via XML file.
+06/01/2010 20:28:01 (InfL2)	Loaded GUI scheme 'TaharezLook' from data in file 'TaharezLookSkin.scheme'.
+06/01/2010 20:28:01 (InfL2)	---- Begining resource loading for GUI scheme 'TaharezLook' ----
+06/01/2010 20:28:01 (InfL1)	Attempting to create an Imageset from the information specified in file 'TaharezLook.imageset'.
+06/01/2010 20:28:01 (InfL1)	Started creation of Imageset from XML specification:
+06/01/2010 20:28:01 (InfL1)	---- CEGUI Imageset name: TaharezLook
+06/01/2010 20:28:01 (InfL1)	---- Source texture file: TaharezLook.tga in resource group: (Default)
+06/01/2010 20:28:01 (InfL2)	Finished creation of Imageset 'TaharezLook' via XML file.
+06/01/2010 20:28:01 (InfL1)	Attempting to create Font from the information specified in file 'bluehighway-12.font'.
+06/01/2010 20:28:01 (InfL1)	Started creation of FreeType Font:
+06/01/2010 20:28:01 (InfL1)	---- CEGUI font name: BlueHighway-12
+06/01/2010 20:28:01 (InfL1)	----     Source file: bluehigh.ttf in resource group: (Default)
+06/01/2010 20:28:01 (InfL1)	---- Real point size: 12
+06/01/2010 20:28:01 (InfL1)	Succsessfully loaded 289 glyphs
+06/01/2010 20:28:01 (InfL2)	Finished creation of Font 'BlueHighway-12' via XML file.
+06/01/2010 20:28:01 (InfL1)	Attempting to create Font from the information specified in file 'bluehighway-10.font'.
+06/01/2010 20:28:01 (InfL1)	Started creation of FreeType Font:
+06/01/2010 20:28:01 (InfL1)	---- CEGUI font name: BlueHighway-10
+06/01/2010 20:28:01 (InfL1)	----     Source file: bluehigh.ttf in resource group: (Default)
+06/01/2010 20:28:01 (InfL1)	---- Real point size: 10
+06/01/2010 20:28:01 (InfL1)	Succsessfully loaded 289 glyphs
+06/01/2010 20:28:01 (InfL2)	Finished creation of Font 'BlueHighway-10' via XML file.
+06/01/2010 20:28:01 (InfL1)	Attempting to create Font from the information specified in file 'bluehighway-8.font'.
+06/01/2010 20:28:01 (InfL1)	Started creation of FreeType Font:
+06/01/2010 20:28:01 (InfL1)	---- CEGUI font name: BlueHighway-8
+06/01/2010 20:28:01 (InfL1)	----     Source file: bluehigh.ttf in resource group: (Default)
+06/01/2010 20:28:01 (InfL1)	---- Real point size: 8
+06/01/2010 20:28:01 (InfL1)	Succsessfully loaded 289 glyphs
+06/01/2010 20:28:01 (InfL2)	Finished creation of Font 'BlueHighway-8' via XML file.
+06/01/2010 20:28:01 (InfL1)	===== Falagard 'root' element: look and feel parsing begins =====
+06/01/2010 20:28:01 (InfL2)	---> Start of definition for widget look 'TaharezLook/Button'.
+06/01/2010 20:28:01 (InfL2)	---< End of definition for widget look 'TaharezLook/Button'.
+06/01/2010 20:28:01 (InfL2)	---> Start of definition for widget look 'TaharezLook/RadioButton'.
+06/01/2010 20:28:01 (InfL2)	---< End of definition for widget look 'TaharezLook/RadioButton'.
+06/01/2010 20:28:01 (InfL2)	---> Start of definition for widget look 'TaharezLook/Checkbox'.
+06/01/2010 20:28:01 (InfL2)	---< End of definition for widget look 'TaharezLook/Checkbox'.
+06/01/2010 20:28:01 (InfL2)	---> Start of definition for widget look 'TaharezLook/Editbox'.
+06/01/2010 20:28:01 (InfL2)	---< End of definition for widget look 'TaharezLook/Editbox'.
+06/01/2010 20:28:01 (InfL2)	---> Start of definition for widget look 'TaharezLook/Titlebar'.
+06/01/2010 20:28:01 (InfL2)	---< End of definition for widget look 'TaharezLook/Titlebar'.
+06/01/2010 20:28:01 (InfL2)	---> Start of definition for widget look 'TaharezLook/FrameWindow'.
+06/01/2010 20:28:01 (InfL2)	---< End of definition for widget look 'TaharezLook/FrameWindow'.
+06/01/2010 20:28:01 (InfL2)	---> Start of definition for widget look 'TaharezLook/ProgressBar'.
+06/01/2010 20:28:01 (InfL2)	---< End of definition for widget look 'TaharezLook/ProgressBar'.
+06/01/2010 20:28:01 (InfL2)	---> Start of definition for widget look 'TaharezLook/AltProgressBar'.
+06/01/2010 20:28:01 (InfL2)	---< End of definition for widget look 'TaharezLook/AltProgressBar'.
+06/01/2010 20:28:01 (InfL2)	---> Start of definition for widget look 'TaharezLook/VUMeter'.
+06/01/2010 20:28:01 (InfL2)	---< End of definition for widget look 'TaharezLook/VUMeter'.
+06/01/2010 20:28:01 (InfL2)	---> Start of definition for widget look 'TaharezLook/SliderThumb'.
+06/01/2010 20:28:01 (InfL2)	---< End of definition for widget look 'TaharezLook/SliderThumb'.
+06/01/2010 20:28:01 (InfL2)	---> Start of definition for widget look 'TaharezLook/Slider'.
+06/01/2010 20:28:01 (InfL2)	---< End of definition for widget look 'TaharezLook/Slider'.
+06/01/2010 20:28:01 (InfL2)	---> Start of definition for widget look 'TaharezLook/HorizontalScrollbarThumb'.
+06/01/2010 20:28:01 (InfL2)	---< End of definition for widget look 'TaharezLook/HorizontalScrollbarThumb'.
+06/01/2010 20:28:01 (InfL2)	---> Start of definition for widget look 'TaharezLook/HorizontalScrollbar'.
+06/01/2010 20:28:01 (InfL2)	---< End of definition for widget look 'TaharezLook/HorizontalScrollbar'.
+06/01/2010 20:28:01 (InfL2)	---> Start of definition for widget look 'TaharezLook/VerticalScrollbarThumb'.
+06/01/2010 20:28:01 (InfL2)	---< End of definition for widget look 'TaharezLook/VerticalScrollbarThumb'.
+06/01/2010 20:28:01 (InfL2)	---> Start of definition for widget look 'TaharezLook/VerticalScrollbar'.
+06/01/2010 20:28:01 (InfL2)	---< End of definition for widget look 'TaharezLook/VerticalScrollbar'.
+06/01/2010 20:28:01 (InfL2)	---> Start of definition for widget look 'TaharezLook/Listbox'.
+06/01/2010 20:28:01 (InfL2)	---< End of definition for widget look 'TaharezLook/Listbox'.
+06/01/2010 20:28:01 (InfL2)	---> Start of definition for widget look 'TaharezLook/ComboDropList'.
+06/01/2010 20:28:01 (InfL2)	---< End of definition for widget look 'TaharezLook/ComboDropList'.
+06/01/2010 20:28:01 (InfL2)	---> Start of definition for widget look 'TaharezLook/ComboEditbox'.
+06/01/2010 20:28:01 (InfL2)	---< End of definition for widget look 'TaharezLook/ComboEditbox'.
+06/01/2010 20:28:01 (InfL2)	---> Start of definition for widget look 'TaharezLook/Combobox'.
+06/01/2010 20:28:01 (InfL2)	---< End of definition for widget look 'TaharezLook/Combobox'.
+06/01/2010 20:28:01 (InfL2)	---> Start of definition for widget look 'TaharezLook/Spinner'.
+06/01/2010 20:28:01 (InfL2)	---< End of definition for widget look 'TaharezLook/Spinner'.
+06/01/2010 20:28:01 (InfL2)	---> Start of definition for widget look 'TaharezLook/StaticShared'.
+06/01/2010 20:28:01 (InfL2)	---< End of definition for widget look 'TaharezLook/StaticShared'.
+06/01/2010 20:28:01 (InfL2)	---> Start of definition for widget look 'TaharezLook/StaticImage'.
+06/01/2010 20:28:01 (InfL2)	---< End of definition for widget look 'TaharezLook/StaticImage'.
+06/01/2010 20:28:01 (InfL2)	---> Start of definition for widget look 'TaharezLook/StaticText'.
+06/01/2010 20:28:01 (InfL2)	---< End of definition for widget look 'TaharezLook/StaticText'.
+06/01/2010 20:28:01 (InfL2)	---> Start of definition for widget look 'TaharezLook/ListHeaderSegment'.
+06/01/2010 20:28:01 (InfL2)	---< End of definition for widget look 'TaharezLook/ListHeaderSegment'.
+06/01/2010 20:28:01 (InfL2)	---> Start of definition for widget look 'TaharezLook/ListHeader'.
+06/01/2010 20:28:01 (InfL2)	---< End of definition for widget look 'TaharezLook/ListHeader'.
+06/01/2010 20:28:01 (InfL2)	---> Start of definition for widget look 'TaharezLook/MultiColumnList'.
+06/01/2010 20:28:01 (InfL2)	---< End of definition for widget look 'TaharezLook/MultiColumnList'.
+06/01/2010 20:28:01 (InfL2)	---> Start of definition for widget look 'TaharezLook/MultiLineEditbox'.
+06/01/2010 20:28:01 (InfL2)	---< End of definition for widget look 'TaharezLook/MultiLineEditbox'.
+06/01/2010 20:28:01 (InfL2)	---> Start of definition for widget look 'TaharezLook/Tooltip'.
+06/01/2010 20:28:01 (InfL2)	---< End of definition for widget look 'TaharezLook/Tooltip'.
+06/01/2010 20:28:01 (InfL2)	---> Start of definition for widget look 'TaharezLook/ScrollablePane'.
+06/01/2010 20:28:01 (InfL2)	---< End of definition for widget look 'TaharezLook/ScrollablePane'.
+06/01/2010 20:28:01 (InfL2)	---> Start of definition for widget look 'TaharezLook/TabButton'.
+06/01/2010 20:28:01 (InfL2)	---< End of definition for widget look 'TaharezLook/TabButton'.
+06/01/2010 20:28:01 (InfL2)	---> Start of definition for widget look 'TaharezLook/TabContentPane'.
+06/01/2010 20:28:01 (InfL2)	---< End of definition for widget look 'TaharezLook/TabContentPane'.
+06/01/2010 20:28:01 (InfL2)	---> Start of definition for widget look 'TaharezLook/TabButtonPane'.
+06/01/2010 20:28:01 (InfL2)	---< End of definition for widget look 'TaharezLook/TabButtonPane'.
+06/01/2010 20:28:01 (InfL2)	---> Start of definition for widget look 'TaharezLook/TabControl'.
+06/01/2010 20:28:01 (InfL2)	---< End of definition for widget look 'TaharezLook/TabControl'.
+06/01/2010 20:28:01 (InfL2)	---> Start of definition for widget look 'TaharezLook/MenuItem'.
+06/01/2010 20:28:01 (InfL2)	---< End of definition for widget look 'TaharezLook/MenuItem'.
+06/01/2010 20:28:01 (InfL2)	---> Start of definition for widget look 'TaharezLook/PopupMenu'.
+06/01/2010 20:28:01 (InfL2)	---< End of definition for widget look 'TaharezLook/PopupMenu'.
+06/01/2010 20:28:01 (InfL2)	---> Start of definition for widget look 'TaharezLook/Menubar'.
+06/01/2010 20:28:01 (InfL2)	---< End of definition for widget look 'TaharezLook/Menubar'.
+06/01/2010 20:28:01 (InfL2)	---> Start of definition for widget look 'TaharezLook/LargeVerticalScrollbarThumb'.
+06/01/2010 20:28:01 (InfL2)	---< End of definition for widget look 'TaharezLook/LargeVerticalScrollbarThumb'.
+06/01/2010 20:28:01 (InfL2)	---> Start of definition for widget look 'TaharezLook/LargeVerticalScrollbar'.
+06/01/2010 20:28:01 (InfL2)	---< End of definition for widget look 'TaharezLook/LargeVerticalScrollbar'.
+06/01/2010 20:28:01 (InfL2)	---> Start of definition for widget look 'TaharezLook/ImageButton'.
+06/01/2010 20:28:01 (InfL2)	---< End of definition for widget look 'TaharezLook/ImageButton'.
+06/01/2010 20:28:01 (InfL1)	===== Look and feel parsing completed =====
+06/01/2010 20:28:01 (InfL1)	No window renderer factories specified for module 'CEGUIFalagardWRBase' - adding all available factories...
+06/01/2010 20:28:01 (InfL1)	WindowRendererFactory 'Falagard/Button' added.
+06/01/2010 20:28:01 (InfL1)	WindowRendererFactory 'Falagard/Default' added.
+06/01/2010 20:28:01 (InfL1)	WindowRendererFactory 'Falagard/Editbox' added.
+06/01/2010 20:28:01 (InfL1)	WindowRendererFactory 'Falagard/FrameWindow' added.
+06/01/2010 20:28:01 (InfL1)	WindowRendererFactory 'Falagard/ItemEntry' added.
+06/01/2010 20:28:01 (InfL1)	WindowRendererFactory 'Falagard/ListHeader' added.
+06/01/2010 20:28:01 (InfL1)	WindowRendererFactory 'Falagard/ListHeaderSegment' added.
+06/01/2010 20:28:01 (InfL1)	WindowRendererFactory 'Falagard/Listbox' added.
+06/01/2010 20:28:01 (InfL1)	WindowRendererFactory 'Falagard/Menubar' added.
+06/01/2010 20:28:01 (InfL1)	WindowRendererFactory 'Falagard/MenuItem' added.
+06/01/2010 20:28:01 (InfL1)	WindowRendererFactory 'Falagard/MultiColumnList' added.
+06/01/2010 20:28:01 (InfL1)	WindowRendererFactory 'Falagard/MultiLineEditbox' added.
+06/01/2010 20:28:01 (InfL1)	WindowRendererFactory 'Falagard/PopupMenu' added.
+06/01/2010 20:28:01 (InfL1)	WindowRendererFactory 'Falagard/ProgressBar' added.
+06/01/2010 20:28:01 (InfL1)	WindowRendererFactory 'Falagard/ScrollablePane' added.
+06/01/2010 20:28:01 (InfL1)	WindowRendererFactory 'Falagard/Scrollbar' added.
+06/01/2010 20:28:01 (InfL1)	WindowRendererFactory 'Falagard/Slider' added.
+06/01/2010 20:28:01 (InfL1)	WindowRendererFactory 'Falagard/Static' added.
+06/01/2010 20:28:01 (InfL1)	WindowRendererFactory 'Falagard/StaticImage' added.
+06/01/2010 20:28:01 (InfL1)	WindowRendererFactory 'Falagard/StaticText' added.
+06/01/2010 20:28:01 (InfL1)	WindowRendererFactory 'Falagard/SystemButton' added.
+06/01/2010 20:28:01 (InfL1)	WindowRendererFactory 'Falagard/TabButton' added.
+06/01/2010 20:28:01 (InfL1)	WindowRendererFactory 'Falagard/TabControl' added.
+06/01/2010 20:28:01 (InfL1)	WindowRendererFactory 'Falagard/Titlebar' added.
+06/01/2010 20:28:01 (InfL1)	WindowRendererFactory 'Falagard/ToggleButton' added.
+06/01/2010 20:28:01 (InfL1)	WindowRendererFactory 'Falagard/Tooltip' added.
+06/01/2010 20:28:01 (InfL1)	WindowRendererFactory 'Falagard/ItemListbox' added.
+06/01/2010 20:28:01 (InfL1)	Creating falagard mapping for type 'TaharezLook/Button' using base type 'CEGUI/PushButton', window renderer 'Falagard/Button' and Look'N'Feel 'TaharezLook/Button'.
+06/01/2010 20:28:01 (InfL1)	Creating falagard mapping for type 'TaharezLook/Checkbox' using base type 'CEGUI/Checkbox', window renderer 'Falagard/ToggleButton' and Look'N'Feel 'TaharezLook/Checkbox'.
+06/01/2010 20:28:01 (InfL1)	Creating falagard mapping for type 'TaharezLook/ImageButton' using base type 'CEGUI/PushButton', window renderer 'Falagard/Button' and Look'N'Feel 'TaharezLook/ImageButton'.
+06/01/2010 20:28:01 (InfL1)	Creating falagard mapping for type 'TaharezLook/RadioButton' using base type 'CEGUI/RadioButton', window renderer 'Falagard/ToggleButton' and Look'N'Feel 'TaharezLook/RadioButton'.
+06/01/2010 20:28:01 (InfL1)	Creating falagard mapping for type 'TaharezLook/FrameWindow' using base type 'CEGUI/FrameWindow', window renderer 'Falagard/FrameWindow' and Look'N'Feel 'TaharezLook/FrameWindow'.
+06/01/2010 20:28:01 (InfL1)	Creating falagard mapping for type 'TaharezLook/Titlebar' using base type 'CEGUI/Titlebar', window renderer 'Falagard/Titlebar' and Look'N'Feel 'TaharezLook/Titlebar'.
+06/01/2010 20:28:01 (InfL1)	Creating falagard mapping for type 'TaharezLook/SystemButton' using base type 'CEGUI/PushButton', window renderer 'Falagard/SystemButton' and Look'N'Feel 'TaharezLook/Button'.
+06/01/2010 20:28:01 (InfL1)	Creating falagard mapping for type 'TaharezLook/Editbox' using base type 'CEGUI/Editbox', window renderer 'Falagard/Editbox' and Look'N'Feel 'TaharezLook/Editbox'.
+06/01/2010 20:28:01 (InfL1)	Creating falagard mapping for type 'TaharezLook/MultiLineEditbox' using base type 'CEGUI/MultiLineEditbox', window renderer 'Falagard/MultiLineEditbox' and Look'N'Feel 'TaharezLook/MultiLineEditbox'.
+06/01/2010 20:28:01 (InfL1)	Creating falagard mapping for type 'TaharezLook/Menubar' using base type 'CEGUI/Menubar', window renderer 'Falagard/Menubar' and Look'N'Feel 'TaharezLook/Menubar'.
+06/01/2010 20:28:01 (InfL1)	Creating falagard mapping for type 'TaharezLook/PopupMenu' using base type 'CEGUI/PopupMenu', window renderer 'Falagard/PopupMenu' and Look'N'Feel 'TaharezLook/PopupMenu'.
+06/01/2010 20:28:01 (InfL1)	Creating falagard mapping for type 'TaharezLook/MenuItem' using base type 'CEGUI/MenuItem', window renderer 'Falagard/MenuItem' and Look'N'Feel 'TaharezLook/MenuItem'.
+06/01/2010 20:28:01 (InfL1)	Creating falagard mapping for type 'TaharezLook/AlternateProgressBar' using base type 'CEGUI/ProgressBar', window renderer 'Falagard/ProgressBar' and Look'N'Feel 'TaharezLook/AltProgressBar'.
+06/01/2010 20:28:01 (InfL1)	Creating falagard mapping for type 'TaharezLook/ProgressBar' using base type 'CEGUI/ProgressBar', window renderer 'Falagard/ProgressBar' and Look'N'Feel 'TaharezLook/ProgressBar'.
+06/01/2010 20:28:01 (InfL1)	Creating falagard mapping for type 'TaharezLook/VUMeter' using base type 'CEGUI/ProgressBar', window renderer 'Falagard/ProgressBar' and Look'N'Feel 'TaharezLook/VUMeter'.
+06/01/2010 20:28:01 (InfL1)	Creating falagard mapping for type 'TaharezLook/VerticalScrollbar' using base type 'CEGUI/Scrollbar', window renderer 'Falagard/Scrollbar' and Look'N'Feel 'TaharezLook/VerticalScrollbar'.
+06/01/2010 20:28:01 (InfL1)	Creating falagard mapping for type 'TaharezLook/HorizontalScrollbar' using base type 'CEGUI/Scrollbar', window renderer 'Falagard/Scrollbar' and Look'N'Feel 'TaharezLook/HorizontalScrollbar'.
+06/01/2010 20:28:01 (InfL1)	Creating falagard mapping for type 'TaharezLook/VerticalScrollbarThumb' using base type 'CEGUI/Thumb', window renderer 'Falagard/Button' and Look'N'Feel 'TaharezLook/VerticalScrollbarThumb'.
+06/01/2010 20:28:01 (InfL1)	Creating falagard mapping for type 'TaharezLook/HorizontalScrollbarThumb' using base type 'CEGUI/Thumb', window renderer 'Falagard/Button' and Look'N'Feel 'TaharezLook/HorizontalScrollbarThumb'.
+06/01/2010 20:28:01 (InfL1)	Creating falagard mapping for type 'TaharezLook/LargeVerticalScrollbar' using base type 'CEGUI/Scrollbar', window renderer 'Falagard/Scrollbar' and Look'N'Feel 'TaharezLook/LargeVerticalScrollbar'.
+06/01/2010 20:28:01 (InfL1)	Creating falagard mapping for type 'TaharezLook/LargeVerticalScrollbarThumb' using base type 'CEGUI/Thumb', window renderer 'Falagard/Button' and Look'N'Feel 'TaharezLook/LargeVerticalScrollbarThumb'.
+06/01/2010 20:28:01 (InfL1)	Creating falagard mapping for type 'TaharezLook/TabButton' using base type 'CEGUI/TabButton', window renderer 'Falagard/TabButton' and Look'N'Feel 'TaharezLook/TabButton'.
+06/01/2010 20:28:01 (InfL1)	Creating falagard mapping for type 'TaharezLook/TabControl' using base type 'CEGUI/TabControl', window renderer 'Falagard/TabControl' and Look'N'Feel 'TaharezLook/TabControl'.
+06/01/2010 20:28:01 (InfL1)	Creating falagard mapping for type 'TaharezLook/TabContentPane' using base type 'DefaultWindow', window renderer 'Falagard/Default' and Look'N'Feel 'TaharezLook/TabContentPane'.
+06/01/2010 20:28:01 (InfL1)	Creating falagard mapping for type 'TaharezLook/TabButtonPane' using base type 'DefaultWindow', window renderer 'Falagard/Default' and Look'N'Feel 'TaharezLook/TabButtonPane'.
+06/01/2010 20:28:01 (InfL1)	Creating falagard mapping for type 'TaharezLook/ComboDropList' using base type 'CEGUI/ComboDropList', window renderer 'Falagard/Listbox' and Look'N'Feel 'TaharezLook/ComboDropList'.
+06/01/2010 20:28:01 (InfL1)	Creating falagard mapping for type 'TaharezLook/ComboEditbox' using base type 'CEGUI/Editbox', window renderer 'Falagard/Editbox' and Look'N'Feel 'TaharezLook/ComboEditbox'.
+06/01/2010 20:28:01 (InfL1)	Creating falagard mapping for type 'TaharezLook/Combobox' using base type 'CEGUI/Combobox', window renderer 'Falagard/Default' and Look'N'Feel 'TaharezLook/Combobox'.
+06/01/2010 20:28:01 (InfL1)	Creating falagard mapping for type 'TaharezLook/Listbox' using base type 'CEGUI/Listbox', window renderer 'Falagard/Listbox' and Look'N'Feel 'TaharezLook/Listbox'.
+06/01/2010 20:28:01 (InfL1)	Creating falagard mapping for type 'TaharezLook/ListHeader' using base type 'CEGUI/ListHeader', window renderer 'Falagard/ListHeader' and Look'N'Feel 'TaharezLook/ListHeader'.
+06/01/2010 20:28:01 (InfL1)	Creating falagard mapping for type 'TaharezLook/ListHeaderSegment' using base type 'CEGUI/ListHeaderSegment', window renderer 'Falagard/ListHeaderSegment' and Look'N'Feel 'TaharezLook/ListHeaderSegment'.
+06/01/2010 20:28:01 (InfL1)	Creating falagard mapping for type 'TaharezLook/MultiColumnList' using base type 'CEGUI/MultiColumnList', window renderer 'Falagard/MultiColumnList' and Look'N'Feel 'TaharezLook/MultiColumnList'.
+06/01/2010 20:28:01 (InfL1)	Creating falagard mapping for type 'TaharezLook/Slider' using base type 'CEGUI/Slider', window renderer 'Falagard/Slider' and Look'N'Feel 'TaharezLook/Slider'.
+06/01/2010 20:28:01 (InfL1)	Creating falagard mapping for type 'TaharezLook/SliderThumb' using base type 'CEGUI/Thumb', window renderer 'Falagard/Button' and Look'N'Feel 'TaharezLook/SliderThumb'.
+06/01/2010 20:28:01 (InfL1)	Creating falagard mapping for type 'TaharezLook/ScrollablePane' using base type 'CEGUI/ScrollablePane', window renderer 'Falagard/ScrollablePane' and Look'N'Feel 'TaharezLook/ScrollablePane'.
+06/01/2010 20:28:01 (InfL1)	Creating falagard mapping for type 'TaharezLook/Spinner' using base type 'CEGUI/Spinner', window renderer 'Falagard/Default' and Look'N'Feel 'TaharezLook/Spinner'.
+06/01/2010 20:28:01 (InfL1)	Creating falagard mapping for type 'TaharezLook/Tooltip' using base type 'CEGUI/Tooltip', window renderer 'Falagard/Tooltip' and Look'N'Feel 'TaharezLook/Tooltip'.
+06/01/2010 20:28:01 (InfL1)	Creating falagard mapping for type 'TaharezLook/StaticImage' using base type 'DefaultWindow', window renderer 'Falagard/StaticImage' and Look'N'Feel 'TaharezLook/StaticImage'.
+06/01/2010 20:28:01 (InfL1)	Creating falagard mapping for type 'TaharezLook/StaticText' using base type 'DefaultWindow', window renderer 'Falagard/StaticText' and Look'N'Feel 'TaharezLook/StaticText'.
+06/01/2010 20:28:01 (InfL2)	---- Resource loading for GUI scheme 'TaharezLook' completed ----
+06/01/2010 20:28:01 (InfL2)	---- Beginning loading of GUI layout from 'dodgeheadingamemenu_en.layout' ----
+06/01/2010 20:28:01 (InfL2)	Window 'InGameMenu/' of type 'TaharezLook/FrameWindow' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/FrameWindow' to the window 'InGameMenu/'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/FrameWindow' to window 'InGameMenu/'.
+06/01/2010 20:28:01 (InfL2)	Window 'InGameMenu/__auto_titlebar__' of type 'TaharezLook/Titlebar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Titlebar' to the window 'InGameMenu/__auto_titlebar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Titlebar' to window 'InGameMenu/__auto_titlebar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InGameMenu/__auto_closebutton__' of type 'TaharezLook/SystemButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/SystemButton' to the window 'InGameMenu/__auto_closebutton__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'InGameMenu/__auto_closebutton__'.
+06/01/2010 20:28:01 (Error)	Exception: FontManager::getFont - A Font object with the specified name 'Commonwealth-10' does not exist within the system
+06/01/2010 20:28:01 (InfL2)	Window 'InGameMenu/MainMenu' of type 'TaharezLook/Button' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InGameMenu/MainMenu'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'InGameMenu/MainMenu'.
+06/01/2010 20:28:01 (InfL2)	Window 'InGameMenu/Help' of type 'TaharezLook/Button' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InGameMenu/Help'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'InGameMenu/Help'.
+06/01/2010 20:28:01 (InfL2)	Window 'InGameMenu/Continue' of type 'TaharezLook/Button' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InGameMenu/Continue'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'InGameMenu/Continue'.
+06/01/2010 20:28:01 (InfL1)	---- Successfully completed loading of GUI layout from 'dodgeheadingamemenu_en.layout' ----
+06/01/2010 20:28:01 (InfL2)	---- Beginning loading of GUI layout from 'dodgeheadmainmenu_en.layout' ----
+06/01/2010 20:28:01 (InfL2)	Window 'MainMenu/' of type 'TaharezLook/FrameWindow' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/FrameWindow' to the window 'MainMenu/'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/FrameWindow' to window 'MainMenu/'.
+06/01/2010 20:28:01 (InfL2)	Window 'MainMenu/__auto_titlebar__' of type 'TaharezLook/Titlebar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Titlebar' to the window 'MainMenu/__auto_titlebar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Titlebar' to window 'MainMenu/__auto_titlebar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'MainMenu/__auto_closebutton__' of type 'TaharezLook/SystemButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/SystemButton' to the window 'MainMenu/__auto_closebutton__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'MainMenu/__auto_closebutton__'.
+06/01/2010 20:28:01 (Error)	Exception: FontManager::getFont - A Font object with the specified name 'Commonwealth-10' does not exist within the system
+06/01/2010 20:28:01 (InfL2)	Window 'MainMenu/StartNewGame' of type 'TaharezLook/Button' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'MainMenu/StartNewGame'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'MainMenu/StartNewGame'.
+06/01/2010 20:28:01 (InfL2)	Window 'MainMenu/Options' of type 'TaharezLook/Button' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'MainMenu/Options'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'MainMenu/Options'.
+06/01/2010 20:28:01 (InfL2)	Window 'MainMenu/Credits' of type 'TaharezLook/Button' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'MainMenu/Credits'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'MainMenu/Credits'.
+06/01/2010 20:28:01 (InfL2)	Window 'MainMenu/Exit' of type 'TaharezLook/Button' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'MainMenu/Exit'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'MainMenu/Exit'.
+06/01/2010 20:28:01 (InfL1)	---- Successfully completed loading of GUI layout from 'dodgeheadmainmenu_en.layout' ----
+06/01/2010 20:28:01 (InfL2)	---- Beginning loading of GUI layout from 'dodgeheadcreditsmenu_en.layout' ----
+06/01/2010 20:28:01 (InfL2)	Window 'CreditsMenu/' of type 'TaharezLook/FrameWindow' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/FrameWindow' to the window 'CreditsMenu/'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/FrameWindow' to window 'CreditsMenu/'.
+06/01/2010 20:28:01 (InfL2)	Window 'CreditsMenu/__auto_titlebar__' of type 'TaharezLook/Titlebar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Titlebar' to the window 'CreditsMenu/__auto_titlebar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Titlebar' to window 'CreditsMenu/__auto_titlebar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'CreditsMenu/__auto_closebutton__' of type 'TaharezLook/SystemButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/SystemButton' to the window 'CreditsMenu/__auto_closebutton__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'CreditsMenu/__auto_closebutton__'.
+06/01/2010 20:28:01 (Error)	Exception: FontManager::getFont - A Font object with the specified name 'Commonwealth-10' does not exist within the system
+06/01/2010 20:28:01 (InfL2)	Window 'CreditsMenu/StaticText' of type 'TaharezLook/StaticText' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/StaticText' to the window 'CreditsMenu/StaticText'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/StaticText' to window 'CreditsMenu/StaticText'.
+06/01/2010 20:28:01 (InfL2)	Window 'CreditsMenu/StaticText__auto_hscrollbar__' of type 'TaharezLook/HorizontalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'CreditsMenu/StaticText__auto_hscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbar' to window 'CreditsMenu/StaticText__auto_hscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'CreditsMenu/StaticText__auto_hscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'CreditsMenu/StaticText__auto_hscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'CreditsMenu/StaticText__auto_hscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'CreditsMenu/StaticText__auto_hscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'CreditsMenu/StaticText__auto_hscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'CreditsMenu/StaticText__auto_hscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'CreditsMenu/StaticText__auto_hscrollbar____auto_thumb__' of type 'TaharezLook/HorizontalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'CreditsMenu/StaticText__auto_hscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbarThumb' to window 'CreditsMenu/StaticText__auto_hscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'CreditsMenu/StaticText__auto_vscrollbar__' of type 'TaharezLook/VerticalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'CreditsMenu/StaticText__auto_vscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbar' to window 'CreditsMenu/StaticText__auto_vscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'CreditsMenu/StaticText__auto_vscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'CreditsMenu/StaticText__auto_vscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'CreditsMenu/StaticText__auto_vscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'CreditsMenu/StaticText__auto_vscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'CreditsMenu/StaticText__auto_vscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'CreditsMenu/StaticText__auto_vscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'CreditsMenu/StaticText__auto_vscrollbar____auto_thumb__' of type 'TaharezLook/VerticalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'CreditsMenu/StaticText__auto_vscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbarThumb' to window 'CreditsMenu/StaticText__auto_vscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL1)	Attempting to create Imageset 'BlueHighway-12_auto_glyph_images_ ' with texture only.
+06/01/2010 20:28:01 (InfL2)	Window 'CreditsMenu/Back' of type 'TaharezLook/Button' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'CreditsMenu/Back'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'CreditsMenu/Back'.
+06/01/2010 20:28:01 (InfL1)	---- Successfully completed loading of GUI layout from 'dodgeheadcreditsmenu_en.layout' ----
+06/01/2010 20:28:01 (InfL2)	---- Beginning loading of GUI layout from 'dodgeheadoptionsmenu_en.layout' ----
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/' of type 'TaharezLook/FrameWindow' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/FrameWindow' to the window 'OptionsMenu/'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/FrameWindow' to window 'OptionsMenu/'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/__auto_titlebar__' of type 'TaharezLook/Titlebar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Titlebar' to the window 'OptionsMenu/__auto_titlebar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Titlebar' to window 'OptionsMenu/__auto_titlebar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/__auto_closebutton__' of type 'TaharezLook/SystemButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/SystemButton' to the window 'OptionsMenu/__auto_closebutton__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'OptionsMenu/__auto_closebutton__'.
+06/01/2010 20:28:01 (Error)	Exception: FontManager::getFont - A Font object with the specified name 'Commonwealth-10' does not exist within the system
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/ResolutionBox' of type 'TaharezLook/Combobox' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Default' to the window 'OptionsMenu/ResolutionBox'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Combobox' to window 'OptionsMenu/ResolutionBox'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/ResolutionBox__auto_editbox__' of type 'TaharezLook/ComboEditbox' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Editbox' to the window 'OptionsMenu/ResolutionBox__auto_editbox__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ComboEditbox' to window 'OptionsMenu/ResolutionBox__auto_editbox__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/ResolutionBox__auto_droplist__' of type 'TaharezLook/ComboDropList' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Listbox' to the window 'OptionsMenu/ResolutionBox__auto_droplist__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ComboDropList' to window 'OptionsMenu/ResolutionBox__auto_droplist__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/ResolutionBox__auto_droplist____auto_hscrollbar__' of type 'TaharezLook/HorizontalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'OptionsMenu/ResolutionBox__auto_droplist____auto_hscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbar' to window 'OptionsMenu/ResolutionBox__auto_droplist____auto_hscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/ResolutionBox__auto_droplist____auto_hscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'OptionsMenu/ResolutionBox__auto_droplist____auto_hscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'OptionsMenu/ResolutionBox__auto_droplist____auto_hscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/ResolutionBox__auto_droplist____auto_hscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'OptionsMenu/ResolutionBox__auto_droplist____auto_hscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'OptionsMenu/ResolutionBox__auto_droplist____auto_hscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/ResolutionBox__auto_droplist____auto_hscrollbar____auto_thumb__' of type 'TaharezLook/HorizontalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'OptionsMenu/ResolutionBox__auto_droplist____auto_hscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbarThumb' to window 'OptionsMenu/ResolutionBox__auto_droplist____auto_hscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/ResolutionBox__auto_droplist____auto_vscrollbar__' of type 'TaharezLook/VerticalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'OptionsMenu/ResolutionBox__auto_droplist____auto_vscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbar' to window 'OptionsMenu/ResolutionBox__auto_droplist____auto_vscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/ResolutionBox__auto_droplist____auto_vscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'OptionsMenu/ResolutionBox__auto_droplist____auto_vscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'OptionsMenu/ResolutionBox__auto_droplist____auto_vscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/ResolutionBox__auto_droplist____auto_vscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'OptionsMenu/ResolutionBox__auto_droplist____auto_vscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'OptionsMenu/ResolutionBox__auto_droplist____auto_vscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/ResolutionBox__auto_droplist____auto_vscrollbar____auto_thumb__' of type 'TaharezLook/VerticalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'OptionsMenu/ResolutionBox__auto_droplist____auto_vscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbarThumb' to window 'OptionsMenu/ResolutionBox__auto_droplist____auto_vscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/ResolutionBox__auto_button__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'OptionsMenu/ResolutionBox__auto_button__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'OptionsMenu/ResolutionBox__auto_button__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/ResolutionText' of type 'TaharezLook/StaticText' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/StaticText' to the window 'OptionsMenu/ResolutionText'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/StaticText' to window 'OptionsMenu/ResolutionText'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/ResolutionText__auto_hscrollbar__' of type 'TaharezLook/HorizontalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'OptionsMenu/ResolutionText__auto_hscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbar' to window 'OptionsMenu/ResolutionText__auto_hscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/ResolutionText__auto_hscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'OptionsMenu/ResolutionText__auto_hscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'OptionsMenu/ResolutionText__auto_hscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/ResolutionText__auto_hscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'OptionsMenu/ResolutionText__auto_hscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'OptionsMenu/ResolutionText__auto_hscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/ResolutionText__auto_hscrollbar____auto_thumb__' of type 'TaharezLook/HorizontalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'OptionsMenu/ResolutionText__auto_hscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbarThumb' to window 'OptionsMenu/ResolutionText__auto_hscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/ResolutionText__auto_vscrollbar__' of type 'TaharezLook/VerticalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'OptionsMenu/ResolutionText__auto_vscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbar' to window 'OptionsMenu/ResolutionText__auto_vscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/ResolutionText__auto_vscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'OptionsMenu/ResolutionText__auto_vscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'OptionsMenu/ResolutionText__auto_vscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/ResolutionText__auto_vscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'OptionsMenu/ResolutionText__auto_vscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'OptionsMenu/ResolutionText__auto_vscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/ResolutionText__auto_vscrollbar____auto_thumb__' of type 'TaharezLook/VerticalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'OptionsMenu/ResolutionText__auto_vscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbarThumb' to window 'OptionsMenu/ResolutionText__auto_vscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/FullscreenText' of type 'TaharezLook/StaticText' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/StaticText' to the window 'OptionsMenu/FullscreenText'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/StaticText' to window 'OptionsMenu/FullscreenText'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/FullscreenText__auto_hscrollbar__' of type 'TaharezLook/HorizontalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'OptionsMenu/FullscreenText__auto_hscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbar' to window 'OptionsMenu/FullscreenText__auto_hscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/FullscreenText__auto_hscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'OptionsMenu/FullscreenText__auto_hscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'OptionsMenu/FullscreenText__auto_hscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/FullscreenText__auto_hscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'OptionsMenu/FullscreenText__auto_hscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'OptionsMenu/FullscreenText__auto_hscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/FullscreenText__auto_hscrollbar____auto_thumb__' of type 'TaharezLook/HorizontalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'OptionsMenu/FullscreenText__auto_hscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbarThumb' to window 'OptionsMenu/FullscreenText__auto_hscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/FullscreenText__auto_vscrollbar__' of type 'TaharezLook/VerticalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'OptionsMenu/FullscreenText__auto_vscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbar' to window 'OptionsMenu/FullscreenText__auto_vscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/FullscreenText__auto_vscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'OptionsMenu/FullscreenText__auto_vscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'OptionsMenu/FullscreenText__auto_vscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/FullscreenText__auto_vscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'OptionsMenu/FullscreenText__auto_vscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'OptionsMenu/FullscreenText__auto_vscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/FullscreenText__auto_vscrollbar____auto_thumb__' of type 'TaharezLook/VerticalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'OptionsMenu/FullscreenText__auto_vscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbarThumb' to window 'OptionsMenu/FullscreenText__auto_vscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/FullscreenCheckBox' of type 'TaharezLook/Checkbox' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/ToggleButton' to the window 'OptionsMenu/FullscreenCheckBox'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Checkbox' to window 'OptionsMenu/FullscreenCheckBox'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/Back' of type 'TaharezLook/Button' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'OptionsMenu/Back'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'OptionsMenu/Back'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/Apply' of type 'TaharezLook/Button' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'OptionsMenu/Apply'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'OptionsMenu/Apply'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/DifficultyBox' of type 'TaharezLook/Combobox' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Default' to the window 'OptionsMenu/DifficultyBox'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Combobox' to window 'OptionsMenu/DifficultyBox'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/DifficultyBox__auto_editbox__' of type 'TaharezLook/ComboEditbox' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Editbox' to the window 'OptionsMenu/DifficultyBox__auto_editbox__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ComboEditbox' to window 'OptionsMenu/DifficultyBox__auto_editbox__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/DifficultyBox__auto_droplist__' of type 'TaharezLook/ComboDropList' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Listbox' to the window 'OptionsMenu/DifficultyBox__auto_droplist__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ComboDropList' to window 'OptionsMenu/DifficultyBox__auto_droplist__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/DifficultyBox__auto_droplist____auto_hscrollbar__' of type 'TaharezLook/HorizontalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'OptionsMenu/DifficultyBox__auto_droplist____auto_hscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbar' to window 'OptionsMenu/DifficultyBox__auto_droplist____auto_hscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/DifficultyBox__auto_droplist____auto_hscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'OptionsMenu/DifficultyBox__auto_droplist____auto_hscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'OptionsMenu/DifficultyBox__auto_droplist____auto_hscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/DifficultyBox__auto_droplist____auto_hscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'OptionsMenu/DifficultyBox__auto_droplist____auto_hscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'OptionsMenu/DifficultyBox__auto_droplist____auto_hscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/DifficultyBox__auto_droplist____auto_hscrollbar____auto_thumb__' of type 'TaharezLook/HorizontalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'OptionsMenu/DifficultyBox__auto_droplist____auto_hscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbarThumb' to window 'OptionsMenu/DifficultyBox__auto_droplist____auto_hscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/DifficultyBox__auto_droplist____auto_vscrollbar__' of type 'TaharezLook/VerticalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'OptionsMenu/DifficultyBox__auto_droplist____auto_vscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbar' to window 'OptionsMenu/DifficultyBox__auto_droplist____auto_vscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/DifficultyBox__auto_droplist____auto_vscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'OptionsMenu/DifficultyBox__auto_droplist____auto_vscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'OptionsMenu/DifficultyBox__auto_droplist____auto_vscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/DifficultyBox__auto_droplist____auto_vscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'OptionsMenu/DifficultyBox__auto_droplist____auto_vscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'OptionsMenu/DifficultyBox__auto_droplist____auto_vscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/DifficultyBox__auto_droplist____auto_vscrollbar____auto_thumb__' of type 'TaharezLook/VerticalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'OptionsMenu/DifficultyBox__auto_droplist____auto_vscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbarThumb' to window 'OptionsMenu/DifficultyBox__auto_droplist____auto_vscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/DifficultyBox__auto_button__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'OptionsMenu/DifficultyBox__auto_button__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'OptionsMenu/DifficultyBox__auto_button__'.
+06/01/2010 20:28:01 (Error)	Exception: FontManager::getFont - A Font object with the specified name 'Commonwealth-10' does not exist within the system
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/DifficultyText' of type 'TaharezLook/StaticText' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/StaticText' to the window 'OptionsMenu/DifficultyText'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/StaticText' to window 'OptionsMenu/DifficultyText'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/DifficultyText__auto_hscrollbar__' of type 'TaharezLook/HorizontalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'OptionsMenu/DifficultyText__auto_hscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbar' to window 'OptionsMenu/DifficultyText__auto_hscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/DifficultyText__auto_hscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'OptionsMenu/DifficultyText__auto_hscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'OptionsMenu/DifficultyText__auto_hscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/DifficultyText__auto_hscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'OptionsMenu/DifficultyText__auto_hscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'OptionsMenu/DifficultyText__auto_hscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/DifficultyText__auto_hscrollbar____auto_thumb__' of type 'TaharezLook/HorizontalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'OptionsMenu/DifficultyText__auto_hscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbarThumb' to window 'OptionsMenu/DifficultyText__auto_hscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/DifficultyText__auto_vscrollbar__' of type 'TaharezLook/VerticalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'OptionsMenu/DifficultyText__auto_vscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbar' to window 'OptionsMenu/DifficultyText__auto_vscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/DifficultyText__auto_vscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'OptionsMenu/DifficultyText__auto_vscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'OptionsMenu/DifficultyText__auto_vscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/DifficultyText__auto_vscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'OptionsMenu/DifficultyText__auto_vscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'OptionsMenu/DifficultyText__auto_vscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'OptionsMenu/DifficultyText__auto_vscrollbar____auto_thumb__' of type 'TaharezLook/VerticalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'OptionsMenu/DifficultyText__auto_vscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbarThumb' to window 'OptionsMenu/DifficultyText__auto_vscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL1)	---- Successfully completed loading of GUI layout from 'dodgeheadoptionsmenu_en.layout' ----
+06/01/2010 20:28:01 (InfL2)	---- Beginning loading of GUI layout from 'dodgeheadstartgamemenu_en.layout' ----
+06/01/2010 20:28:01 (InfL2)	Window 'StartGameMenu/' of type 'TaharezLook/FrameWindow' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/FrameWindow' to the window 'StartGameMenu/'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/FrameWindow' to window 'StartGameMenu/'.
+06/01/2010 20:28:01 (InfL2)	Window 'StartGameMenu/__auto_titlebar__' of type 'TaharezLook/Titlebar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Titlebar' to the window 'StartGameMenu/__auto_titlebar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Titlebar' to window 'StartGameMenu/__auto_titlebar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'StartGameMenu/__auto_closebutton__' of type 'TaharezLook/SystemButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/SystemButton' to the window 'StartGameMenu/__auto_closebutton__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'StartGameMenu/__auto_closebutton__'.
+06/01/2010 20:28:01 (Error)	Exception: FontManager::getFont - A Font object with the specified name 'Commonwealth-10' does not exist within the system
+06/01/2010 20:28:01 (InfL2)	Window 'StartGameMenu/OnePlayer' of type 'TaharezLook/Button' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'StartGameMenu/OnePlayer'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'StartGameMenu/OnePlayer'.
+06/01/2010 20:28:01 (InfL2)	Window 'StartGameMenu/TwoPlayer' of type 'TaharezLook/Button' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'StartGameMenu/TwoPlayer'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'StartGameMenu/TwoPlayer'.
+06/01/2010 20:28:01 (InfL2)	Window 'StartGameMenu/Back' of type 'TaharezLook/Button' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'StartGameMenu/Back'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'StartGameMenu/Back'.
+06/01/2010 20:28:01 (InfL1)	---- Successfully completed loading of GUI layout from 'dodgeheadstartgamemenu_en.layout' ----
+06/01/2010 20:28:01 (InfL2)	---- Beginning loading of GUI layout from 'dodgeheadlevelmenu_en.layout' ----
+06/01/2010 20:28:01 (InfL2)	Window 'LevelMenu/' of type 'TaharezLook/FrameWindow' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/FrameWindow' to the window 'LevelMenu/'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/FrameWindow' to window 'LevelMenu/'.
+06/01/2010 20:28:01 (InfL2)	Window 'LevelMenu/__auto_titlebar__' of type 'TaharezLook/Titlebar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Titlebar' to the window 'LevelMenu/__auto_titlebar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Titlebar' to window 'LevelMenu/__auto_titlebar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'LevelMenu/__auto_closebutton__' of type 'TaharezLook/SystemButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/SystemButton' to the window 'LevelMenu/__auto_closebutton__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'LevelMenu/__auto_closebutton__'.
+06/01/2010 20:28:01 (Error)	Exception: FontManager::getFont - A Font object with the specified name 'Commonwealth-10' does not exist within the system
+06/01/2010 20:28:01 (InfL2)	Window 'LevelMenu/Level1' of type 'TaharezLook/Button' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'LevelMenu/Level1'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'LevelMenu/Level1'.
+06/01/2010 20:28:01 (InfL2)	Window 'LevelMenu/Level2' of type 'TaharezLook/Button' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'LevelMenu/Level2'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'LevelMenu/Level2'.
+06/01/2010 20:28:01 (InfL2)	Window 'LevelMenu/Level3' of type 'TaharezLook/Button' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'LevelMenu/Level3'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'LevelMenu/Level3'.
+06/01/2010 20:28:01 (InfL2)	Window 'LevelMenu/Level4' of type 'TaharezLook/Button' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'LevelMenu/Level4'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'LevelMenu/Level4'.
+06/01/2010 20:28:01 (InfL2)	Window 'LevelMenu/Level5' of type 'TaharezLook/Button' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'LevelMenu/Level5'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'LevelMenu/Level5'.
+06/01/2010 20:28:01 (InfL2)	Window 'LevelMenu/Back' of type 'TaharezLook/Button' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'LevelMenu/Back'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'LevelMenu/Back'.
+06/01/2010 20:28:01 (InfL1)	---- Successfully completed loading of GUI layout from 'dodgeheadlevelmenu_en.layout' ----
+06/01/2010 20:28:01 (InfL2)	---- Beginning loading of GUI layout from 'dodgeheadstory1_en.layout' ----
+06/01/2010 20:28:01 (InfL2)	Window 'StoryScreen1/' of type 'TaharezLook/FrameWindow' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/FrameWindow' to the window 'StoryScreen1/'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/FrameWindow' to window 'StoryScreen1/'.
+06/01/2010 20:28:01 (InfL2)	Window 'StoryScreen1/__auto_titlebar__' of type 'TaharezLook/Titlebar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Titlebar' to the window 'StoryScreen1/__auto_titlebar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Titlebar' to window 'StoryScreen1/__auto_titlebar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'StoryScreen1/__auto_closebutton__' of type 'TaharezLook/SystemButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/SystemButton' to the window 'StoryScreen1/__auto_closebutton__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'StoryScreen1/__auto_closebutton__'.
+06/01/2010 20:28:01 (Error)	Exception: FontManager::getFont - A Font object with the specified name 'Commonwealth-10' does not exist within the system
+06/01/2010 20:28:01 (InfL2)	Window 'StoryScreen1/ScrollText__auto_container__' of type 'ScrolledContainer' has been created.
+06/01/2010 20:28:01 (InfL2)	Window 'StoryScreen1/ScrollText' of type 'TaharezLook/ScrollablePane' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/ScrollablePane' to the window 'StoryScreen1/ScrollText'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ScrollablePane' to window 'StoryScreen1/ScrollText'.
+06/01/2010 20:28:01 (InfL2)	Window 'StoryScreen1/ScrollText__auto_hscrollbar__' of type 'TaharezLook/HorizontalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'StoryScreen1/ScrollText__auto_hscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbar' to window 'StoryScreen1/ScrollText__auto_hscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'StoryScreen1/ScrollText__auto_hscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'StoryScreen1/ScrollText__auto_hscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'StoryScreen1/ScrollText__auto_hscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'StoryScreen1/ScrollText__auto_hscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'StoryScreen1/ScrollText__auto_hscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'StoryScreen1/ScrollText__auto_hscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'StoryScreen1/ScrollText__auto_hscrollbar____auto_thumb__' of type 'TaharezLook/HorizontalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'StoryScreen1/ScrollText__auto_hscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbarThumb' to window 'StoryScreen1/ScrollText__auto_hscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'StoryScreen1/ScrollText__auto_vscrollbar__' of type 'TaharezLook/VerticalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'StoryScreen1/ScrollText__auto_vscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbar' to window 'StoryScreen1/ScrollText__auto_vscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'StoryScreen1/ScrollText__auto_vscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'StoryScreen1/ScrollText__auto_vscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'StoryScreen1/ScrollText__auto_vscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'StoryScreen1/ScrollText__auto_vscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'StoryScreen1/ScrollText__auto_vscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'StoryScreen1/ScrollText__auto_vscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'StoryScreen1/ScrollText__auto_vscrollbar____auto_thumb__' of type 'TaharezLook/VerticalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'StoryScreen1/ScrollText__auto_vscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbarThumb' to window 'StoryScreen1/ScrollText__auto_vscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (Error)	ScrolledContainerProperties::ChildExtentsArea property does not support being set.
+06/01/2010 20:28:01 (InfL2)	Window 'StoryScreen1/ScrollText/Text' of type 'TaharezLook/StaticText' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/StaticText' to the window 'StoryScreen1/ScrollText/Text'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/StaticText' to window 'StoryScreen1/ScrollText/Text'.
+06/01/2010 20:28:01 (InfL2)	Window 'StoryScreen1/ScrollText/Text__auto_hscrollbar__' of type 'TaharezLook/HorizontalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'StoryScreen1/ScrollText/Text__auto_hscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbar' to window 'StoryScreen1/ScrollText/Text__auto_hscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'StoryScreen1/ScrollText/Text__auto_hscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'StoryScreen1/ScrollText/Text__auto_hscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'StoryScreen1/ScrollText/Text__auto_hscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'StoryScreen1/ScrollText/Text__auto_hscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'StoryScreen1/ScrollText/Text__auto_hscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'StoryScreen1/ScrollText/Text__auto_hscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'StoryScreen1/ScrollText/Text__auto_hscrollbar____auto_thumb__' of type 'TaharezLook/HorizontalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'StoryScreen1/ScrollText/Text__auto_hscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbarThumb' to window 'StoryScreen1/ScrollText/Text__auto_hscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'StoryScreen1/ScrollText/Text__auto_vscrollbar__' of type 'TaharezLook/VerticalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'StoryScreen1/ScrollText/Text__auto_vscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbar' to window 'StoryScreen1/ScrollText/Text__auto_vscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'StoryScreen1/ScrollText/Text__auto_vscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'StoryScreen1/ScrollText/Text__auto_vscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'StoryScreen1/ScrollText/Text__auto_vscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'StoryScreen1/ScrollText/Text__auto_vscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'StoryScreen1/ScrollText/Text__auto_vscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'StoryScreen1/ScrollText/Text__auto_vscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'StoryScreen1/ScrollText/Text__auto_vscrollbar____auto_thumb__' of type 'TaharezLook/VerticalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'StoryScreen1/ScrollText/Text__auto_vscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbarThumb' to window 'StoryScreen1/ScrollText/Text__auto_vscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'StoryScreen1/Continue' of type 'TaharezLook/Button' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'StoryScreen1/Continue'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'StoryScreen1/Continue'.
+06/01/2010 20:28:01 (InfL1)	---- Successfully completed loading of GUI layout from 'dodgeheadstory1_en.layout' ----
+06/01/2010 20:28:01 (InfL2)	---- Beginning loading of GUI layout from 'dodgeheadinfoscreen1_en.layout' ----
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen1/' of type 'TaharezLook/FrameWindow' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/FrameWindow' to the window 'InfoScreen1/'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/FrameWindow' to window 'InfoScreen1/'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen1/__auto_titlebar__' of type 'TaharezLook/Titlebar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Titlebar' to the window 'InfoScreen1/__auto_titlebar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Titlebar' to window 'InfoScreen1/__auto_titlebar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen1/__auto_closebutton__' of type 'TaharezLook/SystemButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/SystemButton' to the window 'InfoScreen1/__auto_closebutton__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'InfoScreen1/__auto_closebutton__'.
+06/01/2010 20:28:01 (Error)	Exception: FontManager::getFont - A Font object with the specified name 'Commonwealth-10' does not exist within the system
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen1/Forward1' of type 'TaharezLook/Button' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen1/Forward1'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'InfoScreen1/Forward1'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen1/Text1' of type 'TaharezLook/StaticText' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/StaticText' to the window 'InfoScreen1/Text1'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/StaticText' to window 'InfoScreen1/Text1'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen1/Text1__auto_hscrollbar__' of type 'TaharezLook/HorizontalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'InfoScreen1/Text1__auto_hscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbar' to window 'InfoScreen1/Text1__auto_hscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen1/Text1__auto_hscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen1/Text1__auto_hscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen1/Text1__auto_hscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen1/Text1__auto_hscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen1/Text1__auto_hscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen1/Text1__auto_hscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen1/Text1__auto_hscrollbar____auto_thumb__' of type 'TaharezLook/HorizontalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen1/Text1__auto_hscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbarThumb' to window 'InfoScreen1/Text1__auto_hscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen1/Text1__auto_vscrollbar__' of type 'TaharezLook/VerticalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'InfoScreen1/Text1__auto_vscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbar' to window 'InfoScreen1/Text1__auto_vscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen1/Text1__auto_vscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen1/Text1__auto_vscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen1/Text1__auto_vscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen1/Text1__auto_vscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen1/Text1__auto_vscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen1/Text1__auto_vscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen1/Text1__auto_vscrollbar____auto_thumb__' of type 'TaharezLook/VerticalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen1/Text1__auto_vscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbarThumb' to window 'InfoScreen1/Text1__auto_vscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen1/Text2' of type 'TaharezLook/StaticText' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/StaticText' to the window 'InfoScreen1/Text2'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/StaticText' to window 'InfoScreen1/Text2'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen1/Text2__auto_hscrollbar__' of type 'TaharezLook/HorizontalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'InfoScreen1/Text2__auto_hscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbar' to window 'InfoScreen1/Text2__auto_hscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen1/Text2__auto_hscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen1/Text2__auto_hscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen1/Text2__auto_hscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen1/Text2__auto_hscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen1/Text2__auto_hscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen1/Text2__auto_hscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen1/Text2__auto_hscrollbar____auto_thumb__' of type 'TaharezLook/HorizontalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen1/Text2__auto_hscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbarThumb' to window 'InfoScreen1/Text2__auto_hscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen1/Text2__auto_vscrollbar__' of type 'TaharezLook/VerticalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'InfoScreen1/Text2__auto_vscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbar' to window 'InfoScreen1/Text2__auto_vscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen1/Text2__auto_vscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen1/Text2__auto_vscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen1/Text2__auto_vscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen1/Text2__auto_vscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen1/Text2__auto_vscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen1/Text2__auto_vscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen1/Text2__auto_vscrollbar____auto_thumb__' of type 'TaharezLook/VerticalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen1/Text2__auto_vscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbarThumb' to window 'InfoScreen1/Text2__auto_vscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen1/Backward1' of type 'TaharezLook/Button' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen1/Backward1'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'InfoScreen1/Backward1'.
+06/01/2010 20:28:01 (InfL1)	---- Successfully completed loading of GUI layout from 'dodgeheadinfoscreen1_en.layout' ----
+06/01/2010 20:28:01 (InfL2)	---- Beginning loading of GUI layout from 'dodgeheadinfoscreen2_en.layout' ----
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen2/' of type 'TaharezLook/FrameWindow' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/FrameWindow' to the window 'InfoScreen2/'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/FrameWindow' to window 'InfoScreen2/'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen2/__auto_titlebar__' of type 'TaharezLook/Titlebar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Titlebar' to the window 'InfoScreen2/__auto_titlebar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Titlebar' to window 'InfoScreen2/__auto_titlebar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen2/__auto_closebutton__' of type 'TaharezLook/SystemButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/SystemButton' to the window 'InfoScreen2/__auto_closebutton__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'InfoScreen2/__auto_closebutton__'.
+06/01/2010 20:28:01 (Error)	Exception: FontManager::getFont - A Font object with the specified name 'Commonwealth-10' does not exist within the system
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen2/Forward1' of type 'TaharezLook/Button' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen2/Forward1'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'InfoScreen2/Forward1'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen2/Forward2' of type 'TaharezLook/Button' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen2/Forward2'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'InfoScreen2/Forward2'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen2/Text1' of type 'TaharezLook/StaticText' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/StaticText' to the window 'InfoScreen2/Text1'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/StaticText' to window 'InfoScreen2/Text1'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen2/Text1__auto_hscrollbar__' of type 'TaharezLook/HorizontalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'InfoScreen2/Text1__auto_hscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbar' to window 'InfoScreen2/Text1__auto_hscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen2/Text1__auto_hscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen2/Text1__auto_hscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen2/Text1__auto_hscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen2/Text1__auto_hscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen2/Text1__auto_hscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen2/Text1__auto_hscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen2/Text1__auto_hscrollbar____auto_thumb__' of type 'TaharezLook/HorizontalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen2/Text1__auto_hscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbarThumb' to window 'InfoScreen2/Text1__auto_hscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen2/Text1__auto_vscrollbar__' of type 'TaharezLook/VerticalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'InfoScreen2/Text1__auto_vscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbar' to window 'InfoScreen2/Text1__auto_vscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen2/Text1__auto_vscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen2/Text1__auto_vscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen2/Text1__auto_vscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen2/Text1__auto_vscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen2/Text1__auto_vscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen2/Text1__auto_vscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen2/Text1__auto_vscrollbar____auto_thumb__' of type 'TaharezLook/VerticalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen2/Text1__auto_vscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbarThumb' to window 'InfoScreen2/Text1__auto_vscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen2/Text2' of type 'TaharezLook/StaticText' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/StaticText' to the window 'InfoScreen2/Text2'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/StaticText' to window 'InfoScreen2/Text2'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen2/Text2__auto_hscrollbar__' of type 'TaharezLook/HorizontalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'InfoScreen2/Text2__auto_hscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbar' to window 'InfoScreen2/Text2__auto_hscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen2/Text2__auto_hscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen2/Text2__auto_hscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen2/Text2__auto_hscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen2/Text2__auto_hscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen2/Text2__auto_hscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen2/Text2__auto_hscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen2/Text2__auto_hscrollbar____auto_thumb__' of type 'TaharezLook/HorizontalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen2/Text2__auto_hscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbarThumb' to window 'InfoScreen2/Text2__auto_hscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen2/Text2__auto_vscrollbar__' of type 'TaharezLook/VerticalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'InfoScreen2/Text2__auto_vscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbar' to window 'InfoScreen2/Text2__auto_vscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen2/Text2__auto_vscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen2/Text2__auto_vscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen2/Text2__auto_vscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen2/Text2__auto_vscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen2/Text2__auto_vscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen2/Text2__auto_vscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen2/Text2__auto_vscrollbar____auto_thumb__' of type 'TaharezLook/VerticalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen2/Text2__auto_vscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbarThumb' to window 'InfoScreen2/Text2__auto_vscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen2/Text3' of type 'TaharezLook/StaticText' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/StaticText' to the window 'InfoScreen2/Text3'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/StaticText' to window 'InfoScreen2/Text3'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen2/Text3__auto_hscrollbar__' of type 'TaharezLook/HorizontalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'InfoScreen2/Text3__auto_hscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbar' to window 'InfoScreen2/Text3__auto_hscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen2/Text3__auto_hscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen2/Text3__auto_hscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen2/Text3__auto_hscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen2/Text3__auto_hscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen2/Text3__auto_hscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen2/Text3__auto_hscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen2/Text3__auto_hscrollbar____auto_thumb__' of type 'TaharezLook/HorizontalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen2/Text3__auto_hscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbarThumb' to window 'InfoScreen2/Text3__auto_hscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen2/Text3__auto_vscrollbar__' of type 'TaharezLook/VerticalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'InfoScreen2/Text3__auto_vscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbar' to window 'InfoScreen2/Text3__auto_vscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen2/Text3__auto_vscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen2/Text3__auto_vscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen2/Text3__auto_vscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen2/Text3__auto_vscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen2/Text3__auto_vscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen2/Text3__auto_vscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen2/Text3__auto_vscrollbar____auto_thumb__' of type 'TaharezLook/VerticalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen2/Text3__auto_vscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbarThumb' to window 'InfoScreen2/Text3__auto_vscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen2/Backward1' of type 'TaharezLook/Button' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen2/Backward1'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'InfoScreen2/Backward1'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen2/Backward2' of type 'TaharezLook/Button' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen2/Backward2'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'InfoScreen2/Backward2'.
+06/01/2010 20:28:01 (InfL1)	---- Successfully completed loading of GUI layout from 'dodgeheadinfoscreen2_en.layout' ----
+06/01/2010 20:28:01 (InfL2)	---- Beginning loading of GUI layout from 'dodgeheadinfoscreen3_en.layout' ----
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen3/' of type 'TaharezLook/FrameWindow' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/FrameWindow' to the window 'InfoScreen3/'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/FrameWindow' to window 'InfoScreen3/'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen3/__auto_titlebar__' of type 'TaharezLook/Titlebar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Titlebar' to the window 'InfoScreen3/__auto_titlebar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Titlebar' to window 'InfoScreen3/__auto_titlebar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen3/__auto_closebutton__' of type 'TaharezLook/SystemButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/SystemButton' to the window 'InfoScreen3/__auto_closebutton__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'InfoScreen3/__auto_closebutton__'.
+06/01/2010 20:28:01 (Error)	Exception: FontManager::getFont - A Font object with the specified name 'Commonwealth-10' does not exist within the system
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen3/Forward1' of type 'TaharezLook/Button' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen3/Forward1'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'InfoScreen3/Forward1'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen3/Text1' of type 'TaharezLook/StaticText' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/StaticText' to the window 'InfoScreen3/Text1'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/StaticText' to window 'InfoScreen3/Text1'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen3/Text1__auto_hscrollbar__' of type 'TaharezLook/HorizontalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'InfoScreen3/Text1__auto_hscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbar' to window 'InfoScreen3/Text1__auto_hscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen3/Text1__auto_hscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen3/Text1__auto_hscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen3/Text1__auto_hscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen3/Text1__auto_hscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen3/Text1__auto_hscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen3/Text1__auto_hscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen3/Text1__auto_hscrollbar____auto_thumb__' of type 'TaharezLook/HorizontalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen3/Text1__auto_hscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbarThumb' to window 'InfoScreen3/Text1__auto_hscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen3/Text1__auto_vscrollbar__' of type 'TaharezLook/VerticalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'InfoScreen3/Text1__auto_vscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbar' to window 'InfoScreen3/Text1__auto_vscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen3/Text1__auto_vscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen3/Text1__auto_vscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen3/Text1__auto_vscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen3/Text1__auto_vscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen3/Text1__auto_vscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen3/Text1__auto_vscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen3/Text1__auto_vscrollbar____auto_thumb__' of type 'TaharezLook/VerticalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen3/Text1__auto_vscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbarThumb' to window 'InfoScreen3/Text1__auto_vscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen3/Text2' of type 'TaharezLook/StaticText' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/StaticText' to the window 'InfoScreen3/Text2'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/StaticText' to window 'InfoScreen3/Text2'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen3/Text2__auto_hscrollbar__' of type 'TaharezLook/HorizontalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'InfoScreen3/Text2__auto_hscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbar' to window 'InfoScreen3/Text2__auto_hscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen3/Text2__auto_hscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen3/Text2__auto_hscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen3/Text2__auto_hscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen3/Text2__auto_hscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen3/Text2__auto_hscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen3/Text2__auto_hscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen3/Text2__auto_hscrollbar____auto_thumb__' of type 'TaharezLook/HorizontalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen3/Text2__auto_hscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbarThumb' to window 'InfoScreen3/Text2__auto_hscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen3/Text2__auto_vscrollbar__' of type 'TaharezLook/VerticalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'InfoScreen3/Text2__auto_vscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbar' to window 'InfoScreen3/Text2__auto_vscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen3/Text2__auto_vscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen3/Text2__auto_vscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen3/Text2__auto_vscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen3/Text2__auto_vscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen3/Text2__auto_vscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen3/Text2__auto_vscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen3/Text2__auto_vscrollbar____auto_thumb__' of type 'TaharezLook/VerticalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen3/Text2__auto_vscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbarThumb' to window 'InfoScreen3/Text2__auto_vscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen3/Backward1' of type 'TaharezLook/Button' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen3/Backward1'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'InfoScreen3/Backward1'.
+06/01/2010 20:28:01 (InfL1)	---- Successfully completed loading of GUI layout from 'dodgeheadinfoscreen3_en.layout' ----
+06/01/2010 20:28:01 (InfL2)	---- Beginning loading of GUI layout from 'dodgeheadinfoscreen4_en.layout' ----
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen4/' of type 'TaharezLook/FrameWindow' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/FrameWindow' to the window 'InfoScreen4/'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/FrameWindow' to window 'InfoScreen4/'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen4/__auto_titlebar__' of type 'TaharezLook/Titlebar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Titlebar' to the window 'InfoScreen4/__auto_titlebar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Titlebar' to window 'InfoScreen4/__auto_titlebar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen4/__auto_closebutton__' of type 'TaharezLook/SystemButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/SystemButton' to the window 'InfoScreen4/__auto_closebutton__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'InfoScreen4/__auto_closebutton__'.
+06/01/2010 20:28:01 (Error)	Exception: FontManager::getFont - A Font object with the specified name 'Commonwealth-10' does not exist within the system
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen4/Forward1' of type 'TaharezLook/Button' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen4/Forward1'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'InfoScreen4/Forward1'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen4/Text1' of type 'TaharezLook/StaticText' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/StaticText' to the window 'InfoScreen4/Text1'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/StaticText' to window 'InfoScreen4/Text1'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen4/Text1__auto_hscrollbar__' of type 'TaharezLook/HorizontalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'InfoScreen4/Text1__auto_hscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbar' to window 'InfoScreen4/Text1__auto_hscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen4/Text1__auto_hscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen4/Text1__auto_hscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen4/Text1__auto_hscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen4/Text1__auto_hscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen4/Text1__auto_hscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen4/Text1__auto_hscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen4/Text1__auto_hscrollbar____auto_thumb__' of type 'TaharezLook/HorizontalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen4/Text1__auto_hscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbarThumb' to window 'InfoScreen4/Text1__auto_hscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen4/Text1__auto_vscrollbar__' of type 'TaharezLook/VerticalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'InfoScreen4/Text1__auto_vscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbar' to window 'InfoScreen4/Text1__auto_vscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen4/Text1__auto_vscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen4/Text1__auto_vscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen4/Text1__auto_vscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen4/Text1__auto_vscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen4/Text1__auto_vscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen4/Text1__auto_vscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen4/Text1__auto_vscrollbar____auto_thumb__' of type 'TaharezLook/VerticalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen4/Text1__auto_vscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbarThumb' to window 'InfoScreen4/Text1__auto_vscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen4/Text2' of type 'TaharezLook/StaticText' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/StaticText' to the window 'InfoScreen4/Text2'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/StaticText' to window 'InfoScreen4/Text2'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen4/Text2__auto_hscrollbar__' of type 'TaharezLook/HorizontalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'InfoScreen4/Text2__auto_hscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbar' to window 'InfoScreen4/Text2__auto_hscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen4/Text2__auto_hscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen4/Text2__auto_hscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen4/Text2__auto_hscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen4/Text2__auto_hscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen4/Text2__auto_hscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen4/Text2__auto_hscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen4/Text2__auto_hscrollbar____auto_thumb__' of type 'TaharezLook/HorizontalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen4/Text2__auto_hscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbarThumb' to window 'InfoScreen4/Text2__auto_hscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen4/Text2__auto_vscrollbar__' of type 'TaharezLook/VerticalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'InfoScreen4/Text2__auto_vscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbar' to window 'InfoScreen4/Text2__auto_vscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen4/Text2__auto_vscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen4/Text2__auto_vscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen4/Text2__auto_vscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen4/Text2__auto_vscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen4/Text2__auto_vscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen4/Text2__auto_vscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen4/Text2__auto_vscrollbar____auto_thumb__' of type 'TaharezLook/VerticalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen4/Text2__auto_vscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbarThumb' to window 'InfoScreen4/Text2__auto_vscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen4/Backward1' of type 'TaharezLook/Button' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen4/Backward1'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'InfoScreen4/Backward1'.
+06/01/2010 20:28:01 (InfL1)	---- Successfully completed loading of GUI layout from 'dodgeheadinfoscreen4_en.layout' ----
+06/01/2010 20:28:01 (InfL2)	---- Beginning loading of GUI layout from 'dodgeheadinfoscreen5_en.layout' ----
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen5/' of type 'TaharezLook/FrameWindow' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/FrameWindow' to the window 'InfoScreen5/'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/FrameWindow' to window 'InfoScreen5/'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen5/__auto_titlebar__' of type 'TaharezLook/Titlebar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Titlebar' to the window 'InfoScreen5/__auto_titlebar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Titlebar' to window 'InfoScreen5/__auto_titlebar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen5/__auto_closebutton__' of type 'TaharezLook/SystemButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/SystemButton' to the window 'InfoScreen5/__auto_closebutton__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'InfoScreen5/__auto_closebutton__'.
+06/01/2010 20:28:01 (Error)	Exception: FontManager::getFont - A Font object with the specified name 'Commonwealth-10' does not exist within the system
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen5/Forward1' of type 'TaharezLook/Button' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen5/Forward1'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'InfoScreen5/Forward1'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen5/Text1' of type 'TaharezLook/StaticText' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/StaticText' to the window 'InfoScreen5/Text1'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/StaticText' to window 'InfoScreen5/Text1'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen5/Text1__auto_hscrollbar__' of type 'TaharezLook/HorizontalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'InfoScreen5/Text1__auto_hscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbar' to window 'InfoScreen5/Text1__auto_hscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen5/Text1__auto_hscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen5/Text1__auto_hscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen5/Text1__auto_hscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen5/Text1__auto_hscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen5/Text1__auto_hscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen5/Text1__auto_hscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen5/Text1__auto_hscrollbar____auto_thumb__' of type 'TaharezLook/HorizontalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen5/Text1__auto_hscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbarThumb' to window 'InfoScreen5/Text1__auto_hscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen5/Text1__auto_vscrollbar__' of type 'TaharezLook/VerticalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'InfoScreen5/Text1__auto_vscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbar' to window 'InfoScreen5/Text1__auto_vscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen5/Text1__auto_vscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen5/Text1__auto_vscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen5/Text1__auto_vscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen5/Text1__auto_vscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen5/Text1__auto_vscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen5/Text1__auto_vscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen5/Text1__auto_vscrollbar____auto_thumb__' of type 'TaharezLook/VerticalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen5/Text1__auto_vscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbarThumb' to window 'InfoScreen5/Text1__auto_vscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen5/Text2' of type 'TaharezLook/StaticText' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/StaticText' to the window 'InfoScreen5/Text2'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/StaticText' to window 'InfoScreen5/Text2'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen5/Text2__auto_hscrollbar__' of type 'TaharezLook/HorizontalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'InfoScreen5/Text2__auto_hscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbar' to window 'InfoScreen5/Text2__auto_hscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen5/Text2__auto_hscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen5/Text2__auto_hscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen5/Text2__auto_hscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen5/Text2__auto_hscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen5/Text2__auto_hscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen5/Text2__auto_hscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen5/Text2__auto_hscrollbar____auto_thumb__' of type 'TaharezLook/HorizontalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen5/Text2__auto_hscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbarThumb' to window 'InfoScreen5/Text2__auto_hscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen5/Text2__auto_vscrollbar__' of type 'TaharezLook/VerticalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'InfoScreen5/Text2__auto_vscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbar' to window 'InfoScreen5/Text2__auto_vscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen5/Text2__auto_vscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen5/Text2__auto_vscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen5/Text2__auto_vscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen5/Text2__auto_vscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen5/Text2__auto_vscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'InfoScreen5/Text2__auto_vscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen5/Text2__auto_vscrollbar____auto_thumb__' of type 'TaharezLook/VerticalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen5/Text2__auto_vscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbarThumb' to window 'InfoScreen5/Text2__auto_vscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'InfoScreen5/Backward1' of type 'TaharezLook/Button' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'InfoScreen5/Backward1'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'InfoScreen5/Backward1'.
+06/01/2010 20:28:01 (InfL1)	---- Successfully completed loading of GUI layout from 'dodgeheadinfoscreen5_en.layout' ----
+06/01/2010 20:28:01 (InfL2)	---- Beginning loading of GUI layout from 'dodgeheadmatrixmenu_en.layout' ----
+06/01/2010 20:28:01 (InfL2)	Window 'MatrixMenu/' of type 'TaharezLook/FrameWindow' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/FrameWindow' to the window 'MatrixMenu/'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/FrameWindow' to window 'MatrixMenu/'.
+06/01/2010 20:28:01 (InfL2)	Window 'MatrixMenu/__auto_titlebar__' of type 'TaharezLook/Titlebar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Titlebar' to the window 'MatrixMenu/__auto_titlebar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Titlebar' to window 'MatrixMenu/__auto_titlebar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'MatrixMenu/__auto_closebutton__' of type 'TaharezLook/SystemButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/SystemButton' to the window 'MatrixMenu/__auto_closebutton__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'MatrixMenu/__auto_closebutton__'.
+06/01/2010 20:28:01 (Error)	Exception: FontManager::getFont - A Font object with the specified name 'Commonwealth-10' does not exist within the system
+06/01/2010 20:28:01 (InfL2)	Window 'MatrixMenu/EditBox1' of type 'TaharezLook/Editbox' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Editbox' to the window 'MatrixMenu/EditBox1'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Editbox' to window 'MatrixMenu/EditBox1'.
+06/01/2010 20:28:01 (InfL2)	Window 'MatrixMenu/EditBox2' of type 'TaharezLook/Editbox' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Editbox' to the window 'MatrixMenu/EditBox2'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Editbox' to window 'MatrixMenu/EditBox2'.
+06/01/2010 20:28:01 (InfL2)	Window 'MatrixMenu/EditBox3' of type 'TaharezLook/Editbox' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Editbox' to the window 'MatrixMenu/EditBox3'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Editbox' to window 'MatrixMenu/EditBox3'.
+06/01/2010 20:28:01 (InfL2)	Window 'MatrixMenu/EditBox4' of type 'TaharezLook/Editbox' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Editbox' to the window 'MatrixMenu/EditBox4'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Editbox' to window 'MatrixMenu/EditBox4'.
+06/01/2010 20:28:01 (InfL2)	Window 'MatrixMenu/EditBox5' of type 'TaharezLook/Editbox' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Editbox' to the window 'MatrixMenu/EditBox5'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Editbox' to window 'MatrixMenu/EditBox5'.
+06/01/2010 20:28:01 (InfL2)	Window 'MatrixMenu/EditBox6' of type 'TaharezLook/Editbox' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Editbox' to the window 'MatrixMenu/EditBox6'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Editbox' to window 'MatrixMenu/EditBox6'.
+06/01/2010 20:28:01 (InfL2)	Window 'MatrixMenu/EditBox7' of type 'TaharezLook/Editbox' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Editbox' to the window 'MatrixMenu/EditBox7'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Editbox' to window 'MatrixMenu/EditBox7'.
+06/01/2010 20:28:01 (InfL2)	Window 'MatrixMenu/EditBox8' of type 'TaharezLook/Editbox' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Editbox' to the window 'MatrixMenu/EditBox8'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Editbox' to window 'MatrixMenu/EditBox8'.
+06/01/2010 20:28:01 (InfL2)	Window 'MatrixMenu/EditBox9' of type 'TaharezLook/Editbox' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Editbox' to the window 'MatrixMenu/EditBox9'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Editbox' to window 'MatrixMenu/EditBox9'.
+06/01/2010 20:28:01 (InfL2)	Window 'MatrixMenu/EditBox10' of type 'TaharezLook/Editbox' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Editbox' to the window 'MatrixMenu/EditBox10'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Editbox' to window 'MatrixMenu/EditBox10'.
+06/01/2010 20:28:01 (InfL2)	Window 'MatrixMenu/EditBox11' of type 'TaharezLook/Editbox' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Editbox' to the window 'MatrixMenu/EditBox11'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Editbox' to window 'MatrixMenu/EditBox11'.
+06/01/2010 20:28:01 (InfL2)	Window 'MatrixMenu/EditBox12' of type 'TaharezLook/Editbox' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Editbox' to the window 'MatrixMenu/EditBox12'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Editbox' to window 'MatrixMenu/EditBox12'.
+06/01/2010 20:28:01 (InfL2)	Window 'MatrixMenu/EditBox13' of type 'TaharezLook/Editbox' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Editbox' to the window 'MatrixMenu/EditBox13'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Editbox' to window 'MatrixMenu/EditBox13'.
+06/01/2010 20:28:01 (InfL2)	Window 'MatrixMenu/EditBox14' of type 'TaharezLook/Editbox' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Editbox' to the window 'MatrixMenu/EditBox14'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Editbox' to window 'MatrixMenu/EditBox14'.
+06/01/2010 20:28:01 (InfL2)	Window 'MatrixMenu/EditBox15' of type 'TaharezLook/Editbox' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Editbox' to the window 'MatrixMenu/EditBox15'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Editbox' to window 'MatrixMenu/EditBox15'.
+06/01/2010 20:28:01 (InfL2)	Window 'MatrixMenu/EditBox16' of type 'TaharezLook/Editbox' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Editbox' to the window 'MatrixMenu/EditBox16'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Editbox' to window 'MatrixMenu/EditBox16'.
+06/01/2010 20:28:01 (InfL2)	Window 'MatrixMenu/Text' of type 'TaharezLook/StaticText' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/StaticText' to the window 'MatrixMenu/Text'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/StaticText' to window 'MatrixMenu/Text'.
+06/01/2010 20:28:01 (InfL2)	Window 'MatrixMenu/Text__auto_hscrollbar__' of type 'TaharezLook/HorizontalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'MatrixMenu/Text__auto_hscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbar' to window 'MatrixMenu/Text__auto_hscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'MatrixMenu/Text__auto_hscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'MatrixMenu/Text__auto_hscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'MatrixMenu/Text__auto_hscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'MatrixMenu/Text__auto_hscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'MatrixMenu/Text__auto_hscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'MatrixMenu/Text__auto_hscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'MatrixMenu/Text__auto_hscrollbar____auto_thumb__' of type 'TaharezLook/HorizontalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'MatrixMenu/Text__auto_hscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbarThumb' to window 'MatrixMenu/Text__auto_hscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'MatrixMenu/Text__auto_vscrollbar__' of type 'TaharezLook/VerticalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'MatrixMenu/Text__auto_vscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbar' to window 'MatrixMenu/Text__auto_vscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'MatrixMenu/Text__auto_vscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'MatrixMenu/Text__auto_vscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'MatrixMenu/Text__auto_vscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'MatrixMenu/Text__auto_vscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'MatrixMenu/Text__auto_vscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'MatrixMenu/Text__auto_vscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'MatrixMenu/Text__auto_vscrollbar____auto_thumb__' of type 'TaharezLook/VerticalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'MatrixMenu/Text__auto_vscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbarThumb' to window 'MatrixMenu/Text__auto_vscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'MatrixMenu/Apply' of type 'TaharezLook/Button' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'MatrixMenu/Apply'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'MatrixMenu/Apply'.
+06/01/2010 20:28:01 (InfL1)	---- Successfully completed loading of GUI layout from 'dodgeheadmatrixmenu_en.layout' ----
+06/01/2010 20:28:01 (InfL2)	---- Beginning loading of GUI layout from 'dodgeheadhelpmenu_en.layout' ----
+06/01/2010 20:28:01 (InfL2)	Window 'HelpMenu/' of type 'TaharezLook/FrameWindow' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/FrameWindow' to the window 'HelpMenu/'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/FrameWindow' to window 'HelpMenu/'.
+06/01/2010 20:28:01 (InfL2)	Window 'HelpMenu/__auto_titlebar__' of type 'TaharezLook/Titlebar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Titlebar' to the window 'HelpMenu/__auto_titlebar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Titlebar' to window 'HelpMenu/__auto_titlebar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'HelpMenu/__auto_closebutton__' of type 'TaharezLook/SystemButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/SystemButton' to the window 'HelpMenu/__auto_closebutton__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'HelpMenu/__auto_closebutton__'.
+06/01/2010 20:28:01 (Error)	Exception: FontManager::getFont - A Font object with the specified name 'Commonwealth-10' does not exist within the system
+06/01/2010 20:28:01 (InfL2)	Window 'HelpMenu/ScrollText__auto_container__' of type 'ScrolledContainer' has been created.
+06/01/2010 20:28:01 (InfL2)	Window 'HelpMenu/ScrollText' of type 'TaharezLook/ScrollablePane' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/ScrollablePane' to the window 'HelpMenu/ScrollText'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ScrollablePane' to window 'HelpMenu/ScrollText'.
+06/01/2010 20:28:01 (InfL2)	Window 'HelpMenu/ScrollText__auto_hscrollbar__' of type 'TaharezLook/HorizontalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'HelpMenu/ScrollText__auto_hscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbar' to window 'HelpMenu/ScrollText__auto_hscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'HelpMenu/ScrollText__auto_hscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'HelpMenu/ScrollText__auto_hscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'HelpMenu/ScrollText__auto_hscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'HelpMenu/ScrollText__auto_hscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'HelpMenu/ScrollText__auto_hscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'HelpMenu/ScrollText__auto_hscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'HelpMenu/ScrollText__auto_hscrollbar____auto_thumb__' of type 'TaharezLook/HorizontalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'HelpMenu/ScrollText__auto_hscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbarThumb' to window 'HelpMenu/ScrollText__auto_hscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'HelpMenu/ScrollText__auto_vscrollbar__' of type 'TaharezLook/VerticalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'HelpMenu/ScrollText__auto_vscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbar' to window 'HelpMenu/ScrollText__auto_vscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'HelpMenu/ScrollText__auto_vscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'HelpMenu/ScrollText__auto_vscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'HelpMenu/ScrollText__auto_vscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'HelpMenu/ScrollText__auto_vscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'HelpMenu/ScrollText__auto_vscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'HelpMenu/ScrollText__auto_vscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'HelpMenu/ScrollText__auto_vscrollbar____auto_thumb__' of type 'TaharezLook/VerticalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'HelpMenu/ScrollText__auto_vscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbarThumb' to window 'HelpMenu/ScrollText__auto_vscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (Error)	ScrolledContainerProperties::ChildExtentsArea property does not support being set.
+06/01/2010 20:28:01 (InfL2)	Window 'HelpMenu/ScrollText/Text' of type 'TaharezLook/StaticText' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/StaticText' to the window 'HelpMenu/ScrollText/Text'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/StaticText' to window 'HelpMenu/ScrollText/Text'.
+06/01/2010 20:28:01 (InfL2)	Window 'HelpMenu/ScrollText/Text__auto_hscrollbar__' of type 'TaharezLook/HorizontalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'HelpMenu/ScrollText/Text__auto_hscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbar' to window 'HelpMenu/ScrollText/Text__auto_hscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'HelpMenu/ScrollText/Text__auto_hscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'HelpMenu/ScrollText/Text__auto_hscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'HelpMenu/ScrollText/Text__auto_hscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'HelpMenu/ScrollText/Text__auto_hscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'HelpMenu/ScrollText/Text__auto_hscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'HelpMenu/ScrollText/Text__auto_hscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'HelpMenu/ScrollText/Text__auto_hscrollbar____auto_thumb__' of type 'TaharezLook/HorizontalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'HelpMenu/ScrollText/Text__auto_hscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbarThumb' to window 'HelpMenu/ScrollText/Text__auto_hscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'HelpMenu/ScrollText/Text__auto_vscrollbar__' of type 'TaharezLook/VerticalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'HelpMenu/ScrollText/Text__auto_vscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbar' to window 'HelpMenu/ScrollText/Text__auto_vscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'HelpMenu/ScrollText/Text__auto_vscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'HelpMenu/ScrollText/Text__auto_vscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'HelpMenu/ScrollText/Text__auto_vscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'HelpMenu/ScrollText/Text__auto_vscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'HelpMenu/ScrollText/Text__auto_vscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'HelpMenu/ScrollText/Text__auto_vscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'HelpMenu/ScrollText/Text__auto_vscrollbar____auto_thumb__' of type 'TaharezLook/VerticalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'HelpMenu/ScrollText/Text__auto_vscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbarThumb' to window 'HelpMenu/ScrollText/Text__auto_vscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'HelpMenu/Back' of type 'TaharezLook/Button' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'HelpMenu/Back'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'HelpMenu/Back'.
+06/01/2010 20:28:01 (InfL1)	---- Successfully completed loading of GUI layout from 'dodgeheadhelpmenu_en.layout' ----
+06/01/2010 20:28:01 (InfL2)	---- Beginning loading of GUI layout from 'dodgeheadtexturemenu_en.layout' ----
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/' of type 'TaharezLook/FrameWindow' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/FrameWindow' to the window 'TextureMenu/'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/FrameWindow' to window 'TextureMenu/'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/__auto_titlebar__' of type 'TaharezLook/Titlebar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Titlebar' to the window 'TextureMenu/__auto_titlebar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Titlebar' to window 'TextureMenu/__auto_titlebar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/__auto_closebutton__' of type 'TaharezLook/SystemButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/SystemButton' to the window 'TextureMenu/__auto_closebutton__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'TextureMenu/__auto_closebutton__'.
+06/01/2010 20:28:01 (Error)	Exception: FontManager::getFont - A Font object with the specified name 'Commonwealth-10' does not exist within the system
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/ComboBoxEntity' of type 'TaharezLook/Combobox' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Default' to the window 'TextureMenu/ComboBoxEntity'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Combobox' to window 'TextureMenu/ComboBoxEntity'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/ComboBoxEntity__auto_editbox__' of type 'TaharezLook/ComboEditbox' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Editbox' to the window 'TextureMenu/ComboBoxEntity__auto_editbox__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ComboEditbox' to window 'TextureMenu/ComboBoxEntity__auto_editbox__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/ComboBoxEntity__auto_droplist__' of type 'TaharezLook/ComboDropList' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Listbox' to the window 'TextureMenu/ComboBoxEntity__auto_droplist__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ComboDropList' to window 'TextureMenu/ComboBoxEntity__auto_droplist__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/ComboBoxEntity__auto_droplist____auto_hscrollbar__' of type 'TaharezLook/HorizontalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'TextureMenu/ComboBoxEntity__auto_droplist____auto_hscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbar' to window 'TextureMenu/ComboBoxEntity__auto_droplist____auto_hscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/ComboBoxEntity__auto_droplist____auto_hscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'TextureMenu/ComboBoxEntity__auto_droplist____auto_hscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'TextureMenu/ComboBoxEntity__auto_droplist____auto_hscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/ComboBoxEntity__auto_droplist____auto_hscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'TextureMenu/ComboBoxEntity__auto_droplist____auto_hscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'TextureMenu/ComboBoxEntity__auto_droplist____auto_hscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/ComboBoxEntity__auto_droplist____auto_hscrollbar____auto_thumb__' of type 'TaharezLook/HorizontalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'TextureMenu/ComboBoxEntity__auto_droplist____auto_hscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbarThumb' to window 'TextureMenu/ComboBoxEntity__auto_droplist____auto_hscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/ComboBoxEntity__auto_droplist____auto_vscrollbar__' of type 'TaharezLook/VerticalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'TextureMenu/ComboBoxEntity__auto_droplist____auto_vscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbar' to window 'TextureMenu/ComboBoxEntity__auto_droplist____auto_vscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/ComboBoxEntity__auto_droplist____auto_vscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'TextureMenu/ComboBoxEntity__auto_droplist____auto_vscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'TextureMenu/ComboBoxEntity__auto_droplist____auto_vscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/ComboBoxEntity__auto_droplist____auto_vscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'TextureMenu/ComboBoxEntity__auto_droplist____auto_vscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'TextureMenu/ComboBoxEntity__auto_droplist____auto_vscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/ComboBoxEntity__auto_droplist____auto_vscrollbar____auto_thumb__' of type 'TaharezLook/VerticalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'TextureMenu/ComboBoxEntity__auto_droplist____auto_vscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbarThumb' to window 'TextureMenu/ComboBoxEntity__auto_droplist____auto_vscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/ComboBoxEntity__auto_button__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'TextureMenu/ComboBoxEntity__auto_button__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'TextureMenu/ComboBoxEntity__auto_button__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/ComboBoxSubEntity' of type 'TaharezLook/Combobox' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Default' to the window 'TextureMenu/ComboBoxSubEntity'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Combobox' to window 'TextureMenu/ComboBoxSubEntity'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/ComboBoxSubEntity__auto_editbox__' of type 'TaharezLook/ComboEditbox' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Editbox' to the window 'TextureMenu/ComboBoxSubEntity__auto_editbox__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ComboEditbox' to window 'TextureMenu/ComboBoxSubEntity__auto_editbox__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/ComboBoxSubEntity__auto_droplist__' of type 'TaharezLook/ComboDropList' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Listbox' to the window 'TextureMenu/ComboBoxSubEntity__auto_droplist__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ComboDropList' to window 'TextureMenu/ComboBoxSubEntity__auto_droplist__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/ComboBoxSubEntity__auto_droplist____auto_hscrollbar__' of type 'TaharezLook/HorizontalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'TextureMenu/ComboBoxSubEntity__auto_droplist____auto_hscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbar' to window 'TextureMenu/ComboBoxSubEntity__auto_droplist____auto_hscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/ComboBoxSubEntity__auto_droplist____auto_hscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'TextureMenu/ComboBoxSubEntity__auto_droplist____auto_hscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'TextureMenu/ComboBoxSubEntity__auto_droplist____auto_hscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/ComboBoxSubEntity__auto_droplist____auto_hscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'TextureMenu/ComboBoxSubEntity__auto_droplist____auto_hscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'TextureMenu/ComboBoxSubEntity__auto_droplist____auto_hscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/ComboBoxSubEntity__auto_droplist____auto_hscrollbar____auto_thumb__' of type 'TaharezLook/HorizontalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'TextureMenu/ComboBoxSubEntity__auto_droplist____auto_hscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbarThumb' to window 'TextureMenu/ComboBoxSubEntity__auto_droplist____auto_hscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/ComboBoxSubEntity__auto_droplist____auto_vscrollbar__' of type 'TaharezLook/VerticalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'TextureMenu/ComboBoxSubEntity__auto_droplist____auto_vscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbar' to window 'TextureMenu/ComboBoxSubEntity__auto_droplist____auto_vscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/ComboBoxSubEntity__auto_droplist____auto_vscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'TextureMenu/ComboBoxSubEntity__auto_droplist____auto_vscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'TextureMenu/ComboBoxSubEntity__auto_droplist____auto_vscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/ComboBoxSubEntity__auto_droplist____auto_vscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'TextureMenu/ComboBoxSubEntity__auto_droplist____auto_vscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'TextureMenu/ComboBoxSubEntity__auto_droplist____auto_vscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/ComboBoxSubEntity__auto_droplist____auto_vscrollbar____auto_thumb__' of type 'TaharezLook/VerticalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'TextureMenu/ComboBoxSubEntity__auto_droplist____auto_vscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbarThumb' to window 'TextureMenu/ComboBoxSubEntity__auto_droplist____auto_vscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/ComboBoxSubEntity__auto_button__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'TextureMenu/ComboBoxSubEntity__auto_button__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'TextureMenu/ComboBoxSubEntity__auto_button__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/EntityText' of type 'TaharezLook/StaticText' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/StaticText' to the window 'TextureMenu/EntityText'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/StaticText' to window 'TextureMenu/EntityText'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/EntityText__auto_hscrollbar__' of type 'TaharezLook/HorizontalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'TextureMenu/EntityText__auto_hscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbar' to window 'TextureMenu/EntityText__auto_hscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/EntityText__auto_hscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'TextureMenu/EntityText__auto_hscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'TextureMenu/EntityText__auto_hscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/EntityText__auto_hscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'TextureMenu/EntityText__auto_hscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'TextureMenu/EntityText__auto_hscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/EntityText__auto_hscrollbar____auto_thumb__' of type 'TaharezLook/HorizontalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'TextureMenu/EntityText__auto_hscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbarThumb' to window 'TextureMenu/EntityText__auto_hscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/EntityText__auto_vscrollbar__' of type 'TaharezLook/VerticalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'TextureMenu/EntityText__auto_vscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbar' to window 'TextureMenu/EntityText__auto_vscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/EntityText__auto_vscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'TextureMenu/EntityText__auto_vscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'TextureMenu/EntityText__auto_vscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/EntityText__auto_vscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'TextureMenu/EntityText__auto_vscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'TextureMenu/EntityText__auto_vscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/EntityText__auto_vscrollbar____auto_thumb__' of type 'TaharezLook/VerticalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'TextureMenu/EntityText__auto_vscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbarThumb' to window 'TextureMenu/EntityText__auto_vscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/SubEntityText' of type 'TaharezLook/StaticText' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/StaticText' to the window 'TextureMenu/SubEntityText'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/StaticText' to window 'TextureMenu/SubEntityText'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/SubEntityText__auto_hscrollbar__' of type 'TaharezLook/HorizontalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'TextureMenu/SubEntityText__auto_hscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbar' to window 'TextureMenu/SubEntityText__auto_hscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/SubEntityText__auto_hscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'TextureMenu/SubEntityText__auto_hscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'TextureMenu/SubEntityText__auto_hscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/SubEntityText__auto_hscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'TextureMenu/SubEntityText__auto_hscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'TextureMenu/SubEntityText__auto_hscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/SubEntityText__auto_hscrollbar____auto_thumb__' of type 'TaharezLook/HorizontalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'TextureMenu/SubEntityText__auto_hscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbarThumb' to window 'TextureMenu/SubEntityText__auto_hscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/SubEntityText__auto_vscrollbar__' of type 'TaharezLook/VerticalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'TextureMenu/SubEntityText__auto_vscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbar' to window 'TextureMenu/SubEntityText__auto_vscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/SubEntityText__auto_vscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'TextureMenu/SubEntityText__auto_vscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'TextureMenu/SubEntityText__auto_vscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/SubEntityText__auto_vscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'TextureMenu/SubEntityText__auto_vscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'TextureMenu/SubEntityText__auto_vscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/SubEntityText__auto_vscrollbar____auto_thumb__' of type 'TaharezLook/VerticalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'TextureMenu/SubEntityText__auto_vscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbarThumb' to window 'TextureMenu/SubEntityText__auto_vscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/ComboBoxTextures' of type 'TaharezLook/Combobox' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Default' to the window 'TextureMenu/ComboBoxTextures'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Combobox' to window 'TextureMenu/ComboBoxTextures'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/ComboBoxTextures__auto_editbox__' of type 'TaharezLook/ComboEditbox' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Editbox' to the window 'TextureMenu/ComboBoxTextures__auto_editbox__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ComboEditbox' to window 'TextureMenu/ComboBoxTextures__auto_editbox__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/ComboBoxTextures__auto_droplist__' of type 'TaharezLook/ComboDropList' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Listbox' to the window 'TextureMenu/ComboBoxTextures__auto_droplist__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ComboDropList' to window 'TextureMenu/ComboBoxTextures__auto_droplist__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/ComboBoxTextures__auto_droplist____auto_hscrollbar__' of type 'TaharezLook/HorizontalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'TextureMenu/ComboBoxTextures__auto_droplist____auto_hscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbar' to window 'TextureMenu/ComboBoxTextures__auto_droplist____auto_hscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/ComboBoxTextures__auto_droplist____auto_hscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'TextureMenu/ComboBoxTextures__auto_droplist____auto_hscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'TextureMenu/ComboBoxTextures__auto_droplist____auto_hscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/ComboBoxTextures__auto_droplist____auto_hscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'TextureMenu/ComboBoxTextures__auto_droplist____auto_hscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'TextureMenu/ComboBoxTextures__auto_droplist____auto_hscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/ComboBoxTextures__auto_droplist____auto_hscrollbar____auto_thumb__' of type 'TaharezLook/HorizontalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'TextureMenu/ComboBoxTextures__auto_droplist____auto_hscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbarThumb' to window 'TextureMenu/ComboBoxTextures__auto_droplist____auto_hscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/ComboBoxTextures__auto_droplist____auto_vscrollbar__' of type 'TaharezLook/VerticalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'TextureMenu/ComboBoxTextures__auto_droplist____auto_vscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbar' to window 'TextureMenu/ComboBoxTextures__auto_droplist____auto_vscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/ComboBoxTextures__auto_droplist____auto_vscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'TextureMenu/ComboBoxTextures__auto_droplist____auto_vscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'TextureMenu/ComboBoxTextures__auto_droplist____auto_vscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/ComboBoxTextures__auto_droplist____auto_vscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'TextureMenu/ComboBoxTextures__auto_droplist____auto_vscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'TextureMenu/ComboBoxTextures__auto_droplist____auto_vscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/ComboBoxTextures__auto_droplist____auto_vscrollbar____auto_thumb__' of type 'TaharezLook/VerticalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'TextureMenu/ComboBoxTextures__auto_droplist____auto_vscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbarThumb' to window 'TextureMenu/ComboBoxTextures__auto_droplist____auto_vscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/ComboBoxTextures__auto_button__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'TextureMenu/ComboBoxTextures__auto_button__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'TextureMenu/ComboBoxTextures__auto_button__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/TexturesText' of type 'TaharezLook/StaticText' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/StaticText' to the window 'TextureMenu/TexturesText'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/StaticText' to window 'TextureMenu/TexturesText'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/TexturesText__auto_hscrollbar__' of type 'TaharezLook/HorizontalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'TextureMenu/TexturesText__auto_hscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbar' to window 'TextureMenu/TexturesText__auto_hscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/TexturesText__auto_hscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'TextureMenu/TexturesText__auto_hscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'TextureMenu/TexturesText__auto_hscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/TexturesText__auto_hscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'TextureMenu/TexturesText__auto_hscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'TextureMenu/TexturesText__auto_hscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/TexturesText__auto_hscrollbar____auto_thumb__' of type 'TaharezLook/HorizontalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'TextureMenu/TexturesText__auto_hscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbarThumb' to window 'TextureMenu/TexturesText__auto_hscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/TexturesText__auto_vscrollbar__' of type 'TaharezLook/VerticalScrollbar' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'TextureMenu/TexturesText__auto_vscrollbar__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbar' to window 'TextureMenu/TexturesText__auto_vscrollbar__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/TexturesText__auto_vscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'TextureMenu/TexturesText__auto_vscrollbar____auto_incbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'TextureMenu/TexturesText__auto_vscrollbar____auto_incbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/TexturesText__auto_vscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'TextureMenu/TexturesText__auto_vscrollbar____auto_decbtn__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'TextureMenu/TexturesText__auto_vscrollbar____auto_decbtn__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/TexturesText__auto_vscrollbar____auto_thumb__' of type 'TaharezLook/VerticalScrollbarThumb' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'TextureMenu/TexturesText__auto_vscrollbar____auto_thumb__'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbarThumb' to window 'TextureMenu/TexturesText__auto_vscrollbar____auto_thumb__'.
+06/01/2010 20:28:01 (InfL2)	Window 'TextureMenu/Exit' of type 'TaharezLook/Button' has been created.
+06/01/2010 20:28:01 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'TextureMenu/Exit'
+06/01/2010 20:28:01 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'TextureMenu/Exit'.
+06/01/2010 20:28:01 (InfL1)	---- Successfully completed loading of GUI layout from 'dodgeheadtexturemenu_en.layout' ----

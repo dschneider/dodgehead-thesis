@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="TaharezLook/FrameWindow" Name="InfoScreen3/" >
+        <Property Name="Text" Value="INFO SCREEN LEVEL 3" />
+        <Property Name="TitlebarFont" Value="Commonwealth-10" />
+        <Property Name="SizingEnabled" Value="False" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.0365349,0},{0.0208139,0},{0.979392,0},{0.993589,0}}" />
+        <Property Name="CloseButtonEnabled" Value="False" />
+        <Window Type="TaharezLook/Button" Name="InfoScreen3/Forward1" >
+            <Property Name="Text" Value="WEITER" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.512587,0},{0.931724,0},{0.668609,0},{0.985486,0}}" />
+        </Window>
+        <Window Type="TaharezLook/StaticText" Name="InfoScreen3/Text1" >
+            <Property Name="Text" >
+TEXTURE MAPPING
+------------------------------------------------------------------------------------------------------
+Texture mapping is a method for adding detail, surface texture, or colour to a computer-generated graphic or
+3D model. Its application to 3D graphics was pioneered by Dr Edwin Catmull in his Ph.D. thesis of 1974.
+A texture map is applied (mapped) to the surface of a shape or polygon. This process is akin to applying
+patterned paper to a plain white box.Multitexturing is the use of more than one texture at a time on a
+polygon. For instance, a light map texture may be used to light a surface as an alternative to recalculating
+that lighting every time the surface is rendered. Another multitexture technique is bump mapping, which
+allows a texture to directly control the facing direction of a surface for the purposes of its lighting
+calculations; it can give a very good appearance of a complex surface, such as tree bark or rough concrete,
+that takes on lighting detail in addition to the usual detailed coloring. Bump mapping has become popular
+in recent video games as graphics hardware has become powerful enough to accommodate it. The way the
+resulting pixels on the screen are calculated from the texels (texture pixels) is governed by texture
+filtering. The fastest method is to use the nearest-neighbour interpolation, but bilinear interpolation or
+trilinear interpolation between mipmaps are two commonly used alternatives which reduce aliasing or jaggies.
+In the event of a texture coordinate being outside the texture, it is either clamped or wrapped.
+
+Texture coordinates are specified at each vertex of a given triangle, and these coordinates are interpolated 
+using an extended Bresenham's line algorithm. If these texture coordinates are linearly interpolated across 
+the screen, the result is affine texture mapping. This is a fast calculation, but there can be a noticeable 
+discontinuity between adjacent triangles when these triangles are at an angle to the plane of the screen.
+
+Perspective correct texturing accounts for the vertices' positions in 3D space, rather than simply interpolating 
+a 2D triangle. This achieves the correct visual effect, but it is slower to calculate. Instead of interpolating 
+the texture coordinates directly, the coordinates are divided by their depth (relative to the viewer), and the 
+reciprocal of the depth value is also interpolated and used to recover the perspective-correct coordinate. This 
+correction makes it so that in parts of the polygon that are closer to the viewer the difference from pixel to 
+pixel between texture coordinates is smaller (stretching the texture wider), and in parts that are farther away 
+this difference is larger (compressing the texture).
+            </Property>
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0.018584,0},{0.0667662,0},{0.982836,0},{0.920576,0}}" />
+        </Window>
+        <Window Type="TaharezLook/StaticText" Name="InfoScreen3/Text2" >
+            <Property Name="Text" >
+UV MAPPING
+------------------------------------------------------------------------------------------------------
+UV mapping is a 3D modeling process of making a 2D image representing a 3D model. The map transforms the
+3D object onto an image known as a texture. In contrast to "X", "Y" and "Z", which are the coordinates for
+the original 3D object in the modeling space, "U" and "V" are the coordinates of the transformed object.
+This creates the effect of painting the image onto the surface of the 3D object.
+
+To put it simply, UV texturing permits polygons that make up a 3D object to be painted with color from an
+image. The image is called a UV texture map, but it's just an ordinary image. The UV mapping process
+involves assigning pixels in the image to surface mappings on the polygon, usually done by "programmatically"
+copying a triangle shaped piece of the image map and pasting it onto a triangle on the object. UV is the
+alternative to XY, it only maps into a texture space than into the geometric space of the object. But the
+rendering computation uses the UV texture coordinates to determine how to paint the three dimensional surface.
+
+In the example to the right, a sphere is given a checkered texture, first without and then with UV mapping.
+Without UV mapping, the checkers tile XYZ space and the sphere is carved out of them. With UV mapping, the
+checkers tile UV space and points on the sphere map to this space according to their latitude and longitude.
+
+When a model is created as a polygon mesh using a 3D modeler, UV coordinates can be generated for each vertex
+in the mesh. One way is for the 3D modeler to unfold the triangle mesh at the seams, automatically laying out
+the triangles on a flat page. If the mesh is a UV sphere, for example, the modeler might transform it into a
+equirectangular projection. Once the model is unwrapped, the artist can paint a texture on each triangle
+individually, using the unwrapped mesh as a template. When the scene is rendered, each triangle will map to
+the appropriate texture from the "decal sheet".
+
+A UV map can either be generated automatically by the software application, made manually by the artist, or
+some combination of both. Often a UV map will be generated, and then the artist will adjust and optimize it
+to minimize seams and overlaps. If the model is symmetric, the artist might overlap opposite triangles to allow
+painting both sides simultaneously.
+
+UV coordinates are applied per face, not per vertex. This means a shared vertex can have different UV coordinates
+in each of its triangles, so adjacent triangles can be cut apart and positioned on different areas of the texture
+map.
+
+UVW MAPPING
+------------------------------------------------------------------------------------------------------
+UVW mapping is a mathematical technique for coordinate mapping. In computer graphics, it is most commonly 
+a \mathbb{R}^{2} to \mathbb{R}^{3} map, suitable for converting a 2D image (a texture) to a three dimensional 
+object of a given topology. "UVW", like the standard Cartesian coordinate system, has three dimensions; the 
+third dimension allows texture maps to wrap in complex ways onto irregular surfaces. Each point in a UVW map 
+corresponds to a point on the surface of the object. The graphic designer or programmer generates the specific 
+mathematical function to implement the map, so that points on the texture are assigned to (XYZ) points on the 
+target surface. Generally speaking, the more orderly the unwrapped polygons are, the easier it is for the texture 
+artist to paint features onto the texture. Once the texture is finished, all that has to be done is to wrap the 
+UVW map back onto the object, projecting the texture in a way that is far more flexible and advanced, preventing 
+graphic artifacts that accompany more simplistic texture mappings such as planar projection. For this reason, UVW 
+mapping is commonly used to texture map non-platonic solids, non-geometric primitives, and other irregularly-shaped 
+objects, such as characters and furniture.
+            </Property>
+            <Property Name="Visible" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0195962,0},{0.0671617,0},{0.98282,0},{0.920972,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="InfoScreen3/Backward1" >
+            <Property Name="Text" Value="ZURÜCK" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.347828,0},{0.929472,0},{0.503849,0},{0.984742,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

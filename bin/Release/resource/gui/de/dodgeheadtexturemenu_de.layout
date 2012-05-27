@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="TaharezLook/FrameWindow" Name="TextureMenu/" >
+        <Property Name="Text" Value="TEXTURENMENÜ" />
+        <Property Name="TitlebarFont" Value="Commonwealth-10" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.0195312,0},{0.128047,0},{0.261719,0},{0.862628,0}}" />
+        <Property Name="CloseButtonEnabled" Value="False" />
+        <Window Type="TaharezLook/Combobox" Name="TextureMenu/ComboBoxEntity" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.106452,0},{0.208179,0},{0.898387,0},{0.624215,0}}" />
+            <Property Name="MaxEditTextLength" Value="1073741823" />
+        </Window>
+        <Window Type="TaharezLook/Combobox" Name="TextureMenu/ComboBoxSubEntity" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.109677,0},{0.451252,0},{0.895161,0},{0.755765,0}}" />
+            <Property Name="MaxEditTextLength" Value="1073741823" />
+        </Window>
+        <Window Type="TaharezLook/StaticText" Name="TextureMenu/EntityText" >
+            <Property Name="Text" Value="ENTITY TYPE" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.116129,0},{0.123467,0},{0.891935,0},{0.181142,0}}" />
+        </Window>
+        <Window Type="TaharezLook/StaticText" Name="TextureMenu/SubEntityText" >
+            <Property Name="Text" Value="SUBENTITY TYPE" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.119355,0},{0.363045,0},{0.888709,0},{0.422467,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Combobox" Name="TextureMenu/ComboBoxTextures" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.112903,0},{0.710401,0},{0.898387,0},{1.02568,0}}" />
+            <Property Name="MaxEditTextLength" Value="1073741823" />
+        </Window>
+        <Window Type="TaharezLook/StaticText" Name="TextureMenu/TexturesText" >
+            <Property Name="Text" Value="TEXTUREN" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.119355,0},{0.625937,0},{0.895161,0},{0.686032,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="TextureMenu/Exit" >
+            <Property Name="Text" Value="BEENDEN" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.109677,0},{0.885658,0},{0.895161,0},{0.963744,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

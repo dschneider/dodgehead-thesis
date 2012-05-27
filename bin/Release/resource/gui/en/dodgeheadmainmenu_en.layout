@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="TaharezLook/FrameWindow" Name="MainMenu/" >
+        <Property Name="Text" Value="MAIN MENU" />
+        <Property Name="TitlebarFont" Value="Commonwealth-10" />
+        <Property Name="SizingEnabled" Value="False" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.0214285,0},{0.00216445,0},{0.321429,0},{0.502165,0}}" />
+        <Property Name="DragMovingEnabled" Value="False" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Property Name="CloseButtonEnabled" Value="False" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Window Type="TaharezLook/Button" Name="MainMenu/StartNewGame" >
+            <Property Name="Text" Value="START NEW GAME" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.146384,0},{0.188618,0},{0.858288,0},{0.306504,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="MainMenu/Options" >
+            <Property Name="Text" Value="OPTIONS" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.149667,0},{0.345528,0},{0.854213,0},{0.46748,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="MainMenu/Credits" >
+            <Property Name="Text" Value="CREDITS" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.151219,0},{0.502846,0},{0.853548,0},{0.616667,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="MainMenu/Exit" >
+            <Property Name="Text" Value="EXIT" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.149224,0},{0.769512,0},{0.849335,0},{0.881301,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

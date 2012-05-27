@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="TaharezLook/FrameWindow" Name="InGameMenu/" >
+        <Property Name="Text" Value="PAUSEMENÜ" />
+        <Property Name="TitlebarFont" Value="Commonwealth-10" />
+        <Property Name="SizingEnabled" Value="False" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.0178573,0},{-0.0889609,0},{0.318453,0},{0.229221,0}}" />
+        <Property Name="DragMovingEnabled" Value="False" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Property Name="CloseButtonEnabled" Value="False" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Window Type="TaharezLook/Button" Name="InGameMenu/MainMenu" >
+            <Property Name="Text" Value="HAUPTMENÜ" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.166666,0},{0.719956,0},{0.835714,0},{0.917912,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="InGameMenu/Help" >
+            <Property Name="Text" Value="HILFE" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.166666,0},{0.477589,0},{0.833334,0},{0.666582,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="InGameMenu/Continue" >
+            <Property Name="Text" Value="WEITER" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.168317,0},{0.217007,0},{0.836138,0},{0.419387,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

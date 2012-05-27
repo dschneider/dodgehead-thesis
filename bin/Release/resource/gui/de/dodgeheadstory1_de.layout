@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="TaharezLook/FrameWindow" Name="StoryScreen1/" >
+        <Property Name="Text" Value="DIE GESCHICHTE" />
+        <Property Name="TitlebarFont" Value="Commonwealth-10" />
+        <Property Name="SizingEnabled" Value="False" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.371428,0},{0.254113,0},{0.670237,0},{0.808224,0}}" />
+        <Property Name="CloseButtonEnabled" Value="False" />
+        <Window Type="TaharezLook/ScrollablePane" Name="StoryScreen1/ScrollText" >
+            <Property Name="ContentArea" Value="l:205 t:192 r:602 b:742" />
+            <Property Name="HorzStepSize" Value="0.1" />
+            <Property Name="VertStepSize" Value="0.1" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HorzOverlapSize" Value="0.01" />
+            <Property Name="UnifiedAreaRect" Value="{{0.109524,0},{0.11954,0},{0.923809,0},{0.829364,0}}" />
+            <Property Name="VertOverlapSize" Value="0.01" />
+            <Property Name="HorzScrollPosition" Value="0" />
+            <Property Name="VertScrollPosition" Value="0" />
+            <AutoWindow NameSuffix="__auto_container__" >
+                <Property Name="ContentArea" Value="l:205 t:192 r:602 b:742" />
+                <Property Name="ChildExtentsArea" Value="l:205 t:192 r:602 b:742" />
+                <Window Type="TaharezLook/StaticText" Name="StoryScreen1/ScrollText/Text" >
+                    <Property Name="Text" >A LONG TIME AGO IN A
+WORLD FAR BEYOND YOUR
+IMAGINATION EXISTED A 
+LAND THE ANCESTORS
+CALLED &quot;COMPUTER 
+GRAPHICS&quot;. ONCE IT WAS
+A LAND OF GLORY, BUT 
+THEN A CRUEL CREATURE,
+WIDELY KNOWN AS LORD
+BLINN-PHONG SUBJECTED
+THE WHOLE LAND AND TOOK
+ALL COLOR, TEXTURES AND
+EFFECTS. 
+BUT THERE GREW RESISTANCE
+OUT OF THE MISERY. THE HEAD
+OF OGRE MOBILIZED HIS 
+POWERS IN THE NAME OF 
+THE GOOD AND WENT OUT TO 
+REGAIN THE COLORS, TEXTURES
+AND EFFECTS AND TO DEFEAT 
+THE EVIL LORD BLINN-PHONG 
+ONCE AND FOR ALL!
+                    </Property>
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.527797,0},{1.47121,0},{2.04535,0}}" />
+                </Window>
+            </AutoWindow>
+        </Window>
+        <Window Type="TaharezLook/Button" Name="StoryScreen1/Continue" >
+            <Property Name="Text" Value="WEITER" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.15277,0},{0.871094,0},{0.864675,0},{0.96875,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

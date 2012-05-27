@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="TaharezLook/FrameWindow" Name="InfoScreen1/" >
+        <Property Name="Text" Value="INFO SCREEN LEVEL 1" />
+        <Property Name="TitlebarFont" Value="Commonwealth-10" />
+        <Property Name="SizingEnabled" Value="False" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.0365349,0},{0.0208139,0},{0.979392,0},{0.993589,0}}" />
+        <Property Name="CloseButtonEnabled" Value="False" />
+        <Window Type="TaharezLook/Button" Name="InfoScreen1/Forward1" >
+            <Property Name="Text" Value="WEITER" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.512587,0},{0.931724,0},{0.668609,0},{0.985486,0}}" />
+        </Window>
+        <Window Type="TaharezLook/StaticText" Name="InfoScreen1/Text1" >
+            <Property Name="Text" >RASTERISATION
+------------------------------------------------------------------------------------------------------
+Rasterization or Rasterisation is the task of taking an image described in a vector graphics format
+(shapes) and converting it into a raster image (pixels or dots) for output on a video display or printer,
+or for storage in a bitmap file format. The term rasterization can in general be applied to any process
+by which vector information can be converted into a raster format. In normal usage, the term refers to
+the popular rendering algorithm for displaying three-dimensional shapes on a computer. Rasterization is
+currently the most popular technique for producing real-time 3D computer graphics. Real-time applications
+need to respond immediately to user input, and generally need to produce frame rates of at least 25 frames
+per second to achieve smooth animation. Compared with other rendering techniques such as ray tracing,
+rasterization is extremely fast. However, rasterization is simply the process of computing the mapping from
+scene geometry to pixels and does not prescribe a particular way to compute the color of those pixels.
+Shading, including programmable shading, may be based on physical light transport, or artistic intent.
+Since all modern displays are raster-oriented, the difference between raster-only and vector graphics
+comes down to where they are rasterised; client side in the case of vector graphics, as opposed to already
+rasterised on the (web) server. The most basic rasterization algorithm takes a 3D scene, described as
+polygons, and renders it onto a 2D surface, usually a computer monitor. Polygons are themselves represented
+as collections of triangles. Triangles are represented by 3 vertices in 3D-space. At a very basic level,
+rasterizers simply take a stream of vertices, transform them into corresponding 2-dimensional points on
+the viewer’s monitor and fill in the transformed 2-dimensional triangles as appropriate.
+
+HOW IS THE PLAYER OBJECT MOVED ?
+------------------------------------------------------------------------------------------------------
+When we need to manipulate objects in a 3D world, we often need to deal with two spatial characteristics
+of the objects: location and motion. You may remember from trigonometry classes that you can represent
+motions by using mathematical constructs called vectors and examine locations in mapped spaces using
+matrices.
+            </Property>
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0.018584,0},{0.0667662,0},{0.982836,0},{0.920576,0}}" />
+        </Window>
+        <Window Type="TaharezLook/StaticText" Name="InfoScreen1/Text2" >
+            <Property Name="Text" >MATRIX TRANSFORMATIONS
+------------------------------------------------------------------------------------------------------
+Transformations are usually performed by matrix multiplication. Quaternion math may also be used but that is
+outside the scope of this article. The main transformations are translation, scaling, rotation, and projection.
+A 3 dimensional vertex may be transformed by augmenting an extra variable (known as a &quot;homogeneous variable&quot;)
+and left multiplying the resulting 4-component vertex by a 4 x 4 transformation matrix.
+
+A translation is simply the movement of a point from its original location to another location in 3-space by a
+constant offset. Translations can be represented by the following matrix:
+[1][0][0][X]
+[0][1][0][Y]
+[0][0][1][Z]
+[0][0][0][1]
+X, Y, and Z are the offsets in the 3 dimensions, respectively.
+
+A scaling transformation is performed by multiplying the position of a vertex by a scalar value. This has the
+effect of scaling a vertex with respect to the origin. Scaling can be represented by the following matrix:
+[X][0][0][0]
+[0][Y][0][0]
+[0][0][Z][0]
+[0][0][0][1]
+X, Y, and Z are the values by which each of the 3-dimensions are multiplied. Asymmetric scaling can be accomplished
+by varying the values of X, Y, and Z.
+
+Rotation matrices depend on the axis around which a point is to be rotated.
+http://en.wikipedia.org/wiki/Rasterisation
+            </Property>
+            <Property Name="Visible" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0195962,0},{0.0671617,0},{0.98282,0},{0.920972,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="InfoScreen1/Backward1" >
+            <Property Name="Text" Value="ZURÜCK" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.347828,0},{0.929472,0},{0.503849,0},{0.984742,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

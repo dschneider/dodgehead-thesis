@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="TaharezLook/FrameWindow" Name="CreditsMenu/" >
+        <Property Name="Text" Value="CREDITS" />
+        <Property Name="TitlebarFont" Value="Commonwealth-10" />
+        <Property Name="SizingEnabled" Value="False" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.0214281,0},{0.00194724,0},{0.320238,0},{0.500866,0}}" />
+        <Property Name="DragMovingEnabled" Value="False" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Property Name="CloseButtonEnabled" Value="False" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Window Type="TaharezLook/StaticText" Name="CreditsMenu/StaticText" >
+            <Property Name="Text" >PROGRAMMING 
+DENNIS SCHNEIDER
+
+LEVELDESIGN
+DENNIS SCHNEIDER</Property>
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00542418,0},{0.176647,0},{0.671909,0},{0.596307,0}}" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="CreditsMenu/Back" >
+            <Property Name="Text" Value="ZURÜCK" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.174621,0},{0.843313,0},{0.834599,0},{0.955588,0}}" />
+        </Window>
+    </Window>
+</GUILayout>
